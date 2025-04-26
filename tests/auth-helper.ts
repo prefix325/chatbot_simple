@@ -38,14 +38,14 @@ export async function createAuthenticatedContext({
   const password = generateId(16);
 
   await page.goto('http://localhost:3000/register');
-  await page.getByPlaceholder('user@acme.com').click();
-  await page.getByPlaceholder('user@acme.com').fill(email);
+  await page.getByPlaceholder('nome@exemplo.com').click();
+  await page.getByPlaceholder('nome@exemplo.com').fill(email);
   await page.getByLabel('Password').click();
   await page.getByLabel('Password').fill(password);
   await page.getByRole('button', { name: 'Sign Up' }).click();
 
   await expect(page.getByTestId('toast')).toContainText(
-    'Account created successfully!',
+    'Conta criada com sucesso!',
   );
 
   await context.storageState({ path: storageFile });

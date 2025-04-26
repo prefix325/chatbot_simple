@@ -45,10 +45,10 @@ function PureChatHeader({
               }}
             >
               <PlusIcon />
-              <span className="md:sr-only">New Chat</span>
+              <span className="md:sr-only">Novo Chat</span>
             </Button>
           </TooltipTrigger>
-          <TooltipContent>New Chat</TooltipContent>
+          <TooltipContent>Novo Chat</TooltipContent>
         </Tooltip>
       )}
 
@@ -72,11 +72,11 @@ function PureChatHeader({
         asChild
       >
         <Link
-          href={`https://vercel.com/new/clone?repository-url=https://github.com/vercel/ai-chatbot&env=AUTH_SECRET&envDescription=Learn more about how to get the API Keys for the application&envLink=https://github.com/vercel/ai-chatbot/blob/main/.env.example&demo-title=AI Chatbot&demo-description=An Open-Source AI Chatbot Template Built With Next.js and the AI SDK by Vercel.&demo-url=https://chat.vercel.ai&products=[{"type":"integration","protocol":"ai","productSlug":"grok","integrationSlug":"xai"},{"type":"integration","protocol":"storage","productSlug":"neon","integrationSlug":"neon"},{"type":"blob"}]`}
+          href={`https://i.giphy.com/6lq3SYVbwt5oWFeF2i.webp`}
           target="_noblank"
         >
           <VercelIcon size={16} />
-          Deploy with Vercel
+          Suporte Bia e Rafa!
         </Link>
       </Button>
     </header>

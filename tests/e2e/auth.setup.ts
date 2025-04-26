@@ -10,14 +10,14 @@ setup('authenticate', async ({ page }) => {
   const testPassword = generateId(16);
 
   await page.goto('http://localhost:3000/register');
-  await page.getByPlaceholder('user@acme.com').click();
-  await page.getByPlaceholder('user@acme.com').fill(testEmail);
+  await page.getByPlaceholder('nome@exemplo.com').click();
+  await page.getByPlaceholder('nome@exemplo.com').fill(testEmail);
   await page.getByLabel('Password').click();
   await page.getByLabel('Password').fill(testPassword);
   await page.getByRole('button', { name: 'Sign Up' }).click();
 
   await expect(page.getByTestId('toast')).toContainText(
-    'Account created successfully!',
+    'Conta criada com sucesso!',
   );
 
   await page.context().storageState({ path: authFile });

@@ -13,24 +13,26 @@ interface SuggestedActionsProps {
 function PureSuggestedActions({ chatId, append }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Next.js?',
-      action: 'What are the advantages of using Next.js?',
+      title: 'Verso Bíblico do Dia',
+      label: 'Alimento diário das Escrituras?',
+      action:
+        'Me mostre um versículo da Bíblia com uma explicação e aplicação para hoje.',
     },
     {
-      title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
-      action: `Write code to demonstrate djikstra's algorithm`,
+      title: 'Responder uma Dúvida Teológica',
+      label: `Pergunte e aprenda com as Escrituras`,
+      action: `Como Paulo explica a justificação pela fé em Romanos 5:1-2?`,
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: 'Confissões Reformadas',
+      label: `Fé histórica, verdade presente`,
+      action: `Mostre um trecho de uma confissão reformada e explique o que significa.`,
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
+      title: 'Devocional Diário',
+      label: 'Coração aquecido pela Palavra',
+      action:
+        'Quero um devocional curto com um versículo, explicação e oração.',
     },
   ];
 
