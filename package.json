@@ -19,6 +19,7 @@
     "test": "export PLAYWRIGHT=True && pnpm exec playwright test --workers=4"
   },
   "dependencies": {
+    "@ai-sdk/google": "^1.2.13",
     "@ai-sdk/react": "^1.2.8",
     "@ai-sdk/xai": "^1.2.14",
     "@codemirror/lang-javascript": "^6.2.2",
@@ -79,6 +80,7 @@
     "swr": "^2.2.5",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
+    "ts-node": "^10.9.2",
     "usehooks-ts": "^3.1.0",
     "zod": "^3.23.8"
   },
@@ -101,7 +103,7 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "tsx": "^4.19.1",
-    "typescript": "^5.6.3"
+    "typescript": "^5.8.3"
   },
   "packageManager": "pnpm@9.12.3"
 }

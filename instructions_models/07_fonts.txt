@@ -1,0 +1,57 @@
+Fonts
+Customize the typography of your project's user interface.
+
+Chat SDK ships with Geist as the default font family, for both mono and sans styles.
+
+The easiest way to change the font is to use next/font to import the font family and add it to your Tailwind CSS config.
+
+In the example below, we use the font Inter from next/font/google (you can use any font from Google or Local Fonts). Load your font with the variable option to define your CSS variable name and assign it to inter. Then, use inter.variable to add the CSS variable to your HTML document.
+
+app/layout.tsx
+
+import { Inter, Roboto_Mono } from 'next/font/google'
+ 
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
+ 
+const roboto_mono = Roboto_Mono({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-roboto-mono',
+})
+ 
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en" className={`${inter.variable} ${roboto_mono.variable}`}>
+      <body className="antialiased">{children}</body>
+    </html>
+  )
+}
+Finally, add the CSS variable to your Tailwind CSS config:
+
+tailwind.config.ts
+
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)'],
+        mono: ['var(--font-roboto-mono)'],
+      },
+    },
+  },
+  plugins: [],
+}
+The updated fonts should now be applied to your project's user interface.

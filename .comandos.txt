@@ -1,0 +1,12 @@
+# Executar o projeto:
+npm run dev
+
+# Instalar um pacote:
+npm install <pacote>
+
+# Instalar um pacote, ignorando os conflitos de dependências:
+npm install @ai-sdk/google --legacy-peer-deps
+npm install ts-node typescript --legacy-peer-deps
+
+# Migração do banco de dados:
+npx tsx lib/db/migrate.ts
