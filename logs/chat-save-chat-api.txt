@@ -1,0 +1,272 @@
+[2025-08-02T17:18:11.059Z] [INFO] Save chat API called
+[2025-08-02T17:18:11.072Z] [ERROR] Unauthorized: No session found
+[2025-08-02T17:19:02.690Z] [INFO] Save chat API called
+[2025-08-02T17:19:02.694Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "test-1754155142461",
+  "userId": "debug-user",
+  "messagesCount": 2
+}
+[2025-08-02T17:19:02.701Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "invalid input syntax for type uuid: \"test-1754155142461\""
+}
+[2025-08-02T17:19:46.348Z] [INFO] Save chat API called
+[2025-08-02T17:19:46.352Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "3b96a311-37e5-4554-b740-d79543381d4e",
+  "userId": "debug-user",
+  "messagesCount": 2
+}
+[2025-08-02T17:19:46.377Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"47679c02-73c5-4169-a5cf-82c9b45ec14c\",\"role\":\"user\",\"content\":\"Teste de salvamento\",\"createdAt\":\"2025-08-02T17:19:46.260Z\"}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 17:19:46 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T17:19:46.537Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "3b96a311-37e5-4554-b740-d79543381d4e",
+  "title": "New Chat"
+}
+[2025-08-02T17:19:46.557Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "invalid input syntax for type uuid: \"debug-user\""
+}
+[2025-08-02T17:20:15.003Z] [INFO] Save chat API called
+[2025-08-02T17:20:15.006Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "263add91-9300-4dea-9827-973ede8e698f",
+  "userId": "00000000-0000-0000-0000-000000000000",
+  "messagesCount": 2
+}
+[2025-08-02T17:20:15.026Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"4cd27c6c-8832-4d09-95a0-8db4da082282\",\"role\":\"user\",\"content\":\"Teste de salvamento\",\"createdAt\":\"2025-08-02T17:20:14.785Z\"}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 17:20:15 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T17:20:15.151Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "263add91-9300-4dea-9827-973ede8e698f",
+  "title": "New Chat"
+}
+[2025-08-02T17:20:15.168Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "insert or update on table \"Chat\" violates foreign key constraint \"Chat_userId_User_id_fk\""
+}
+[2025-08-02T17:21:54.546Z] [INFO] Save chat API called - TEMP DEBUG MODE
+[2025-08-02T17:21:54.548Z] [INFO] Processing save chat request (temp mode)
+  Data: {
+  "chatId": "72551e22-fde6-4051-9093-19a7f20df413",
+  "messagesCount": 2
+}
+[2025-08-02T17:21:54.549Z] [INFO] TEMP: Skipping database save, returning success
+[2025-08-02T17:25:27.764Z] [INFO] Save chat API called
+[2025-08-02T17:25:27.768Z] [ERROR] Unauthorized: No session found
+[2025-08-02T17:25:27.769Z] [INFO] Using test user for development
+[2025-08-02T17:25:27.770Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "79de36d7-635d-4011-980f-cd5eabb70588",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T17:25:27.947Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"e5d400c4-a66e-407a-933f-94675d4217bb\",\"role\":\"user\",\"content\":\"Teste de salvamento\",\"createdAt\":\"2025-08-02T17:25:24.688Z\"}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 17:25:27 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T17:25:28.054Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "79de36d7-635d-4011-980f-cd5eabb70588",
+  "title": "New Chat"
+}
+[2025-08-02T17:25:28.064Z] [INFO] Saving messages
+  Data: {
+  "count": 2
+}
+[2025-08-02T17:25:28.074Z] [INFO] Chat and messages saved successfully
+[2025-08-02T17:37:07.785Z] [INFO] Save chat API called
+[2025-08-02T17:37:07.805Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "38a8d4ca-da24-4087-9d23-fbc52b929455",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 0
+}
+[2025-08-02T17:37:07.832Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "38a8d4ca-da24-4087-9d23-fbc52b929455",
+  "title": "New Chat"
+}
+[2025-08-02T17:37:07.842Z] [INFO] Saving messages
+  Data: {
+  "count": 0
+}
+[2025-08-02T17:37:07.991Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "values() must be called with at least one value"
+}
+[2025-08-02T17:37:18.277Z] [INFO] Save chat API called
+[2025-08-02T17:37:18.282Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "38a8d4ca-da24-4087-9d23-fbc52b929455",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T17:37:18.293Z] [INFO] Saving messages
+  Data: {
+  "count": 2
+}
+[2025-08-02T17:37:18.303Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "invalid input syntax for type uuid: \"msg-1754156223324-pp9zzb9ie7d\""
+}
+[2025-08-02T17:37:33.148Z] [INFO] Save chat API called
+[2025-08-02T17:37:33.151Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "38a8d4ca-da24-4087-9d23-fbc52b929455",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 4
+}
+[2025-08-02T17:37:33.161Z] [INFO] Saving messages
+  Data: {
+  "count": 4
+}
+[2025-08-02T17:37:33.169Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "invalid input syntax for type uuid: \"msg-1754156223324-pp9zzb9ie7d\""
+}
+[2025-08-02T19:02:15.543Z] [INFO] Save chat API called
+[2025-08-02T19:02:15.562Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "c2270fcd-5c88-4af7-82ab-3f522d5200f4",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 0
+}
+[2025-08-02T19:02:15.589Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "c2270fcd-5c88-4af7-82ab-3f522d5200f4",
+  "title": "New Chat"
+}
+[2025-08-02T19:02:15.608Z] [INFO] Saving messages
+  Data: {
+  "count": 0
+}
+[2025-08-02T19:02:15.719Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "values() must be called with at least one value"
+}
+[2025-08-02T19:02:48.865Z] [INFO] Save chat API called
+[2025-08-02T19:02:48.871Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "ccd680a9-357d-48da-9ee8-c2b6a6a4d134",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 0
+}
+[2025-08-02T19:02:48.883Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "ccd680a9-357d-48da-9ee8-c2b6a6a4d134",
+  "title": "New Chat"
+}
+[2025-08-02T19:02:48.894Z] [INFO] Saving messages
+  Data: {
+  "count": 0
+}
+[2025-08-02T19:02:49.023Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "values() must be called with at least one value"
+}
+[2025-08-02T19:03:40.434Z] [INFO] Save chat API called
+[2025-08-02T19:03:40.450Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "ccd680a9-357d-48da-9ee8-c2b6a6a4d134",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:03:40.499Z] [INFO] Saving messages
+  Data: {
+  "count": 2
+}
+[2025-08-02T19:03:40.512Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "invalid input syntax for type uuid: \"msg-1754161365916-k0q5hk22en9\""
+}

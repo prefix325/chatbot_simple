@@ -31,6 +31,36 @@ export function Chat({
 }) {
   const { mutate } = useSWRConfig();
 
+  // Função para salvar chat e mensagens
+  const saveChatAndMessages = async (chatId: string, messages: Array<UIMessage>) => {
+    try {
+      console.log('Saving chat and messages to database...', { chatId, messageCount: messages.length });
+      
+      const response = await fetch('/api/save-chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          chatId,
+          messages
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to save chat');
+      }
+
+      const result = await response.json();
+      console.log('Chat saved successfully:', result);
+      
+    } catch (error) {
+      console.error('Failed to save chat:', error);
+      toast.error(`Erro ao salvar chat: ${error instanceof Error ? error.message : 'Erro desconhecido'}`);
+    }
+  };
+
   const {
     messages,
     setMessages,
@@ -49,10 +79,65 @@ export function Chat({
     sendExtraMessageFields: true,
     generateId: generateUUID,
     onFinish: () => {
+      console.log('Chat finished successfully');
       mutate(unstable_serialize(getChatHistoryPaginationKey));
+      
+      // Salvar chat e mensagens no banco de dados
+      saveChatAndMessages(id, messages);
     },
-    onError: () => {
-      toast.error('An error occurred, please try again!');
+    onResponse: (response) => {
+      console.log('Chat API response received:', {
+        status: response.status,
+        statusText: response.statusText,
+        ok: response.ok,
+        headers: response.headers,
+        url: response.url
+      });
+    },
+    onError: (error) => {
+      console.error('=== CHAT ERROR DEBUG ===');
+      console.error('Chat error details:', error);
+      console.error('Error message:', error.message);
+      console.error('Error stack:', error.stack);
+      console.error('Error name:', error.name);
+      console.error('Error cause:', error.cause);
+      console.error('Current status:', status);
+      console.error('Messages count:', messages.length);
+      console.error('Full error object:', JSON.stringify(error, Object.getOwnPropertyNames(error), 2));
+      
+      // Log do contexto adicional 
+      console.error('useChat id:', id);
+      console.error('selectedChatModel:', selectedChatModel);
+      console.error('initialMessages:', initialMessages);
+      
+      // Verificar se é um erro de rede
+      if (error instanceof TypeError && error.message.includes('fetch')) {
+        console.error('Network fetch error detected');
+      } else if (error.message.includes('stream')) {
+        console.error('Stream processing error detected');
+      } else if (error.message.includes('An error occurred')) {
+        console.error('Generic AI SDK error detected - check backend logs');
+      }
+      
+      // Verificar o tipo de erro para fornecer mensagens mais específicas
+      let errorMessage = 'Erro desconhecido';
+      if (error.message.includes('fetch')) {
+        errorMessage = 'Erro de conexão com o servidor';
+      } else if (error.message.includes('Ollama')) {
+        errorMessage = 'Erro de comunicação com o modelo de IA';
+      } else if (error.message.includes('stream')) {
+        errorMessage = 'Erro no stream de dados';
+      } else if (error.message.includes('An error occurred')) {
+        errorMessage = 'Erro interno do servidor - verifique os logs';
+      } else if (error.message.includes('timeout')) {
+        errorMessage = 'Tempo limite excedido - tente novamente';
+      } else if (error.message.includes('network')) {
+        errorMessage = 'Erro de rede - verifique sua conexão';
+      } else if (error.message) {
+        errorMessage = error.message;
+      }
+      
+      toast.error(`Erro no chat: ${errorMessage}`);
     },
   });
 

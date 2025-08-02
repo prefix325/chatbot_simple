@@ -9,12 +9,12 @@ interface ChatModel {
 export const chatModels: Array<ChatModel> = [
   {
     id: 'chat-model',
-    name: 'Modelo de chat',
-    description: 'Modelo de chat padrão',
+    name: 'MasterKey (Ollama)',
+    description: 'Modelo local MasterKey via Ollama',
   },
   {
     id: 'chat-model-reasoning',
-    name: 'Modo profundo',
-    description: 'Modelo de raciocínio avançado',
+    name: 'MasterKey - Modo Profundo',
+    description: 'Modelo MasterKey com raciocínio avançado',
   },
 ];

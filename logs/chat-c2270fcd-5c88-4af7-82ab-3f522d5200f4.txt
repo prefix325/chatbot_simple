@@ -1,0 +1,36 @@
+[2025-08-02T19:01:37.946Z] [INFO] Chat request received
+  Data: {
+  "chatId": "c2270fcd-5c88-4af7-82ab-3f522d5200f4",
+  "model": "chat-model",
+  "messageCount": 1
+}
+[2025-08-02T19:01:37.948Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "c2270fcd-5c88-4af7-82ab-3f522d5200f4",
+  "selectedModel": "chat-model",
+  "messagesCount": 1
+}
+[2025-08-02T19:01:37.949Z] [DEBUG] Starting Ollama health check
+[2025-08-02T19:01:37.970Z] [INFO] Ollama health check passed
+[2025-08-02T19:01:37.971Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:01:37.973Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 59
+}
+[2025-08-02T19:01:37.974Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 1,
+  "formattedCount": 1,
+  "lastMessage": {
+    "role": "user",
+    "content": "Como Paulo explica a justificação pela fé em Romanos 5:1-2?"
+  }
+}
+[2025-08-02T19:01:37.976Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:01:37.977Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T19:01:37.985Z] [INFO] StreamText created successfully, returning data stream response

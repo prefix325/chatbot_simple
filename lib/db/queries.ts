@@ -28,6 +28,7 @@ import {
   type Chat,
 } from './schema';
 import type { ArtifactKind } from '@/components/artifact';
+import { logDatabaseOperation } from '@/lib/logger';
 
 // Optionally, if not using email/pass login, you can
 // use the Drizzle adapter for Auth.js / NextAuth
@@ -68,13 +69,17 @@ export async function saveChat({
   title: string;
 }) {
   try {
-    return await db.insert(chat).values({
+    logDatabaseOperation('saveChat', id, true, { userId, title });
+    const result = await db.insert(chat).values({
       id,
       createdAt: new Date(),
       userId,
       title,
     });
+    logDatabaseOperation('saveChat - completed', id, true);
+    return result;
   } catch (error) {
+    logDatabaseOperation('saveChat', id, false, error);
     console.error('Failed to save chat in database');
     throw error;
   }
@@ -176,9 +181,19 @@ export async function saveMessages({
   messages: Array<DBMessage>;
 }) {
   try {
-    return await db.insert(message).values(messages);
+    const chatIds = [...new Set(messages.map(m => m.chatId))];
+    logDatabaseOperation('saveMessages', chatIds.join(','), true, { 
+      messageCount: messages.length,
+      chatIds 
+    });
+    
+    const result = await db.insert(message).values(messages);
+    logDatabaseOperation('saveMessages - completed', chatIds.join(','), true);
+    return result;
   } catch (error) {
-    console.error('Failed to save messages in database', error);
+    const chatIds = [...new Set(messages.map(m => m.chatId))];
+    logDatabaseOperation('saveMessages', chatIds.join(','), false, error);
+    console.error('Failed to save messages in database');
     throw error;
   }
 }

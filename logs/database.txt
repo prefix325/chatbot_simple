@@ -1,0 +1,47 @@
+[2025-08-02T17:19:46.539Z] [SUCCESS] saveChat for chat 3b96a311-37e5-4554-b740-d79543381d4e
+  Error: [object Object]
+[2025-08-02T17:19:46.554Z] [FAILED] saveChat for chat 3b96a311-37e5-4554-b740-d79543381d4e
+  Error: invalid input syntax for type uuid: "debug-user"
+[2025-08-02T17:20:15.153Z] [SUCCESS] saveChat for chat 263add91-9300-4dea-9827-973ede8e698f
+  Error: [object Object]
+[2025-08-02T17:20:15.164Z] [FAILED] saveChat for chat 263add91-9300-4dea-9827-973ede8e698f
+  Error: insert or update on table "Chat" violates foreign key constraint "Chat_userId_User_id_fk"
+[2025-08-02T17:25:28.055Z] [SUCCESS] saveChat for chat 79de36d7-635d-4011-980f-cd5eabb70588
+  Error: [object Object]
+[2025-08-02T17:25:28.063Z] [SUCCESS] saveChat - completed for chat 79de36d7-635d-4011-980f-cd5eabb70588
+[2025-08-02T17:25:28.065Z] [SUCCESS] saveMessages for chat 79de36d7-635d-4011-980f-cd5eabb70588
+  Error: [object Object]
+[2025-08-02T17:25:28.073Z] [SUCCESS] saveMessages - completed for chat 79de36d7-635d-4011-980f-cd5eabb70588
+[2025-08-02T17:37:07.833Z] [SUCCESS] saveChat for chat 38a8d4ca-da24-4087-9d23-fbc52b929455
+  Error: [object Object]
+[2025-08-02T17:37:07.842Z] [SUCCESS] saveChat - completed for chat 38a8d4ca-da24-4087-9d23-fbc52b929455
+[2025-08-02T17:37:07.844Z] [SUCCESS] saveMessages for chat 
+  Error: [object Object]
+[2025-08-02T17:37:07.844Z] [FAILED] saveMessages for chat 
+  Error: values() must be called with at least one value
+[2025-08-02T17:37:18.294Z] [SUCCESS] saveMessages for chat 38a8d4ca-da24-4087-9d23-fbc52b929455
+  Error: [object Object]
+[2025-08-02T17:37:18.299Z] [FAILED] saveMessages for chat 38a8d4ca-da24-4087-9d23-fbc52b929455
+  Error: invalid input syntax for type uuid: "msg-1754156223324-pp9zzb9ie7d"
+[2025-08-02T17:37:33.162Z] [SUCCESS] saveMessages for chat 38a8d4ca-da24-4087-9d23-fbc52b929455
+  Error: [object Object]
+[2025-08-02T17:37:33.166Z] [FAILED] saveMessages for chat 38a8d4ca-da24-4087-9d23-fbc52b929455
+  Error: invalid input syntax for type uuid: "msg-1754156223324-pp9zzb9ie7d"
+[2025-08-02T19:02:15.591Z] [SUCCESS] saveChat for chat c2270fcd-5c88-4af7-82ab-3f522d5200f4
+  Error: [object Object]
+[2025-08-02T19:02:15.607Z] [SUCCESS] saveChat - completed for chat c2270fcd-5c88-4af7-82ab-3f522d5200f4
+[2025-08-02T19:02:15.609Z] [SUCCESS] saveMessages for chat 
+  Error: [object Object]
+[2025-08-02T19:02:15.610Z] [FAILED] saveMessages for chat 
+  Error: values() must be called with at least one value
+[2025-08-02T19:02:48.885Z] [SUCCESS] saveChat for chat ccd680a9-357d-48da-9ee8-c2b6a6a4d134
+  Error: [object Object]
+[2025-08-02T19:02:48.893Z] [SUCCESS] saveChat - completed for chat ccd680a9-357d-48da-9ee8-c2b6a6a4d134
+[2025-08-02T19:02:48.895Z] [SUCCESS] saveMessages for chat 
+  Error: [object Object]
+[2025-08-02T19:02:48.896Z] [FAILED] saveMessages for chat 
+  Error: values() must be called with at least one value
+[2025-08-02T19:03:40.500Z] [SUCCESS] saveMessages for chat ccd680a9-357d-48da-9ee8-c2b6a6a4d134
+  Error: [object Object]
+[2025-08-02T19:03:40.507Z] [FAILED] saveMessages for chat ccd680a9-357d-48da-9ee8-c2b6a6a4d134
+  Error: invalid input syntax for type uuid: "msg-1754161365916-k0q5hk22en9"

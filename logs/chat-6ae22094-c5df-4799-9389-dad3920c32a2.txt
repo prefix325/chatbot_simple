@@ -1,0 +1,31 @@
+[2025-08-02T17:31:07.299Z] [INFO] Chat request received
+  Data: {
+  "chatId": "6ae22094-c5df-4799-9389-dad3920c32a2",
+  "model": "chat-model",
+  "messageCount": 1
+}
+[2025-08-02T17:31:07.301Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "6ae22094-c5df-4799-9389-dad3920c32a2",
+  "selectedModel": "chat-model",
+  "messagesCount": 1
+}
+[2025-08-02T17:31:07.302Z] [DEBUG] Starting Ollama health check
+[2025-08-02T17:31:07.308Z] [INFO] Ollama health check passed
+[2025-08-02T17:31:07.309Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:31:07.310Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 74
+}
+[2025-08-02T17:31:07.311Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 1,
+  "formattedCount": 1,
+  "lastMessage": {
+    "role": "user",
+    "content": "Me mostre um versículo da Bíblia com uma explicação e aplicação para hoje."
+  }
+}
+[2025-08-02T17:31:07.313Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:31:07.315Z] [INFO] StreamText created successfully, returning data stream response

@@ -1,0 +1,217 @@
+[2025-08-02T17:11:24.468Z] [CHAT:cdaaef79-4777-4051-93e8-e00467beb272] [INFO] Chat request received
+[2025-08-02T17:11:24.470Z] [CHAT:cdaaef79-4777-4051-93e8-e00467beb272] [INFO] Starting chat processing
+[2025-08-02T17:11:24.472Z] [CHAT:cdaaef79-4777-4051-93e8-e00467beb272] [DEBUG] Starting Ollama health check
+[2025-08-02T17:11:24.488Z] [CHAT:cdaaef79-4777-4051-93e8-e00467beb272] [INFO] Ollama health check passed
+[2025-08-02T17:11:24.490Z] [CHAT:cdaaef79-4777-4051-93e8-e00467beb272] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:11:24.491Z] [CHAT:cdaaef79-4777-4051-93e8-e00467beb272] [DEBUG] Message 0
+[2025-08-02T17:11:24.492Z] [CHAT:cdaaef79-4777-4051-93e8-e00467beb272] [INFO] Messages formatted successfully
+[2025-08-02T17:11:24.494Z] [CHAT:cdaaef79-4777-4051-93e8-e00467beb272] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:11:24.502Z] [CHAT:cdaaef79-4777-4051-93e8-e00467beb272] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:12:57.077Z] [CHAT:ee56a563-ab18-489d-bca1-0dcbc8e917ec] [INFO] Chat request received
+[2025-08-02T17:12:57.079Z] [CHAT:ee56a563-ab18-489d-bca1-0dcbc8e917ec] [INFO] Starting chat processing
+[2025-08-02T17:12:57.080Z] [CHAT:ee56a563-ab18-489d-bca1-0dcbc8e917ec] [DEBUG] Starting Ollama health check
+[2025-08-02T17:12:57.093Z] [CHAT:ee56a563-ab18-489d-bca1-0dcbc8e917ec] [INFO] Ollama health check passed
+[2025-08-02T17:12:57.094Z] [CHAT:ee56a563-ab18-489d-bca1-0dcbc8e917ec] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:12:57.095Z] [CHAT:ee56a563-ab18-489d-bca1-0dcbc8e917ec] [DEBUG] Message 0
+[2025-08-02T17:12:57.096Z] [CHAT:ee56a563-ab18-489d-bca1-0dcbc8e917ec] [INFO] Messages formatted successfully
+[2025-08-02T17:12:57.099Z] [CHAT:ee56a563-ab18-489d-bca1-0dcbc8e917ec] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:12:57.106Z] [CHAT:ee56a563-ab18-489d-bca1-0dcbc8e917ec] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:16:06.433Z] [CHAT:debug-chat] [INFO] Chat request received
+[2025-08-02T17:16:06.436Z] [CHAT:debug-chat] [INFO] Starting chat processing
+[2025-08-02T17:16:06.438Z] [CHAT:debug-chat] [DEBUG] Starting Ollama health check
+[2025-08-02T17:16:06.465Z] [CHAT:debug-chat] [INFO] Ollama health check passed
+[2025-08-02T17:16:06.466Z] [CHAT:debug-chat] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:16:06.468Z] [CHAT:debug-chat] [DEBUG] Message 0
+[2025-08-02T17:16:06.469Z] [CHAT:debug-chat] [INFO] Messages formatted successfully
+[2025-08-02T17:16:06.471Z] [CHAT:debug-chat] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:16:06.479Z] [CHAT:debug-chat] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:17:06.671Z] [CHAT:80a6c78a-bf4b-4dc6-b270-4923ca87f7ab] [INFO] Chat request received
+[2025-08-02T17:17:06.673Z] [CHAT:80a6c78a-bf4b-4dc6-b270-4923ca87f7ab] [INFO] Starting chat processing
+[2025-08-02T17:17:06.675Z] [CHAT:80a6c78a-bf4b-4dc6-b270-4923ca87f7ab] [DEBUG] Starting Ollama health check
+[2025-08-02T17:17:06.687Z] [CHAT:80a6c78a-bf4b-4dc6-b270-4923ca87f7ab] [INFO] Ollama health check passed
+[2025-08-02T17:17:06.688Z] [CHAT:80a6c78a-bf4b-4dc6-b270-4923ca87f7ab] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:17:06.689Z] [CHAT:80a6c78a-bf4b-4dc6-b270-4923ca87f7ab] [DEBUG] Message 0
+[2025-08-02T17:17:06.690Z] [CHAT:80a6c78a-bf4b-4dc6-b270-4923ca87f7ab] [INFO] Messages formatted successfully
+[2025-08-02T17:17:06.693Z] [CHAT:80a6c78a-bf4b-4dc6-b270-4923ca87f7ab] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:17:06.696Z] [CHAT:80a6c78a-bf4b-4dc6-b270-4923ca87f7ab] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:18:11.059Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T17:18:11.072Z] [CHAT:save-chat-api] [ERROR] Unauthorized: No session found
+[2025-08-02T17:19:02.690Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T17:19:02.694Z] [CHAT:save-chat-api] [INFO] Processing save chat request
+[2025-08-02T17:19:02.701Z] [CHAT:save-chat-api] [ERROR] Failed to save chat
+[2025-08-02T17:19:46.348Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T17:19:46.352Z] [CHAT:save-chat-api] [INFO] Processing save chat request
+[2025-08-02T17:19:46.377Z] [CHAT:save-chat-api] [WARNING] Failed to generate title, using default
+[2025-08-02T17:19:46.537Z] [CHAT:save-chat-api] [INFO] Saving new chat
+[2025-08-02T17:19:46.557Z] [CHAT:save-chat-api] [ERROR] Failed to save chat
+[2025-08-02T17:20:15.003Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T17:20:15.006Z] [CHAT:save-chat-api] [INFO] Processing save chat request
+[2025-08-02T17:20:15.026Z] [CHAT:save-chat-api] [WARNING] Failed to generate title, using default
+[2025-08-02T17:20:15.151Z] [CHAT:save-chat-api] [INFO] Saving new chat
+[2025-08-02T17:20:15.168Z] [CHAT:save-chat-api] [ERROR] Failed to save chat
+[2025-08-02T17:20:46.552Z] [CHAT:264c0234-384a-4488-8736-351fa88d5039] [INFO] Chat request received
+[2025-08-02T17:20:46.554Z] [CHAT:264c0234-384a-4488-8736-351fa88d5039] [INFO] Starting chat processing
+[2025-08-02T17:20:46.555Z] [CHAT:264c0234-384a-4488-8736-351fa88d5039] [DEBUG] Starting Ollama health check
+[2025-08-02T17:20:46.570Z] [CHAT:264c0234-384a-4488-8736-351fa88d5039] [INFO] Ollama health check passed
+[2025-08-02T17:20:46.571Z] [CHAT:264c0234-384a-4488-8736-351fa88d5039] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:20:46.572Z] [CHAT:264c0234-384a-4488-8736-351fa88d5039] [DEBUG] Message 0
+[2025-08-02T17:20:46.573Z] [CHAT:264c0234-384a-4488-8736-351fa88d5039] [INFO] Messages formatted successfully
+[2025-08-02T17:20:46.576Z] [CHAT:264c0234-384a-4488-8736-351fa88d5039] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:20:46.583Z] [CHAT:264c0234-384a-4488-8736-351fa88d5039] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:21:54.546Z] [CHAT:save-chat-api] [INFO] Save chat API called - TEMP DEBUG MODE
+[2025-08-02T17:21:54.548Z] [CHAT:save-chat-api] [INFO] Processing save chat request (temp mode)
+[2025-08-02T17:21:54.549Z] [CHAT:save-chat-api] [INFO] TEMP: Skipping database save, returning success
+[2025-08-02T17:25:27.764Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T17:25:27.768Z] [CHAT:save-chat-api] [ERROR] Unauthorized: No session found
+[2025-08-02T17:25:27.769Z] [CHAT:save-chat-api] [INFO] Using test user for development
+[2025-08-02T17:25:27.770Z] [CHAT:save-chat-api] [INFO] Processing save chat request
+[2025-08-02T17:25:27.947Z] [CHAT:save-chat-api] [WARNING] Failed to generate title, using default
+[2025-08-02T17:25:28.054Z] [CHAT:save-chat-api] [INFO] Saving new chat
+[2025-08-02T17:25:28.064Z] [CHAT:save-chat-api] [INFO] Saving messages
+[2025-08-02T17:25:28.074Z] [CHAT:save-chat-api] [INFO] Chat and messages saved successfully
+[2025-08-02T17:27:07.415Z] [CHAT:5fd94c8d-aca2-4303-b692-80cc01455ff2] [INFO] Chat request received
+[2025-08-02T17:27:07.417Z] [CHAT:5fd94c8d-aca2-4303-b692-80cc01455ff2] [INFO] Starting chat processing
+[2025-08-02T17:27:07.418Z] [CHAT:5fd94c8d-aca2-4303-b692-80cc01455ff2] [DEBUG] Starting Ollama health check
+[2025-08-02T17:27:07.434Z] [CHAT:5fd94c8d-aca2-4303-b692-80cc01455ff2] [INFO] Ollama health check passed
+[2025-08-02T17:27:07.435Z] [CHAT:5fd94c8d-aca2-4303-b692-80cc01455ff2] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:27:07.436Z] [CHAT:5fd94c8d-aca2-4303-b692-80cc01455ff2] [DEBUG] Message 0
+[2025-08-02T17:27:07.437Z] [CHAT:5fd94c8d-aca2-4303-b692-80cc01455ff2] [INFO] Messages formatted successfully
+[2025-08-02T17:27:07.439Z] [CHAT:5fd94c8d-aca2-4303-b692-80cc01455ff2] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:27:07.447Z] [CHAT:5fd94c8d-aca2-4303-b692-80cc01455ff2] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:31:03.353Z] [CHAT:2580b6be-0833-4832-8294-18bbbb6db2c9] [INFO] Chat request received
+[2025-08-02T17:31:03.355Z] [CHAT:2580b6be-0833-4832-8294-18bbbb6db2c9] [INFO] Starting chat processing
+[2025-08-02T17:31:03.356Z] [CHAT:2580b6be-0833-4832-8294-18bbbb6db2c9] [DEBUG] Starting Ollama health check
+[2025-08-02T17:31:03.418Z] [CHAT:2580b6be-0833-4832-8294-18bbbb6db2c9] [INFO] Ollama health check passed
+[2025-08-02T17:31:03.419Z] [CHAT:2580b6be-0833-4832-8294-18bbbb6db2c9] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:31:03.421Z] [CHAT:2580b6be-0833-4832-8294-18bbbb6db2c9] [DEBUG] Message 0
+[2025-08-02T17:31:03.422Z] [CHAT:2580b6be-0833-4832-8294-18bbbb6db2c9] [INFO] Messages formatted successfully
+[2025-08-02T17:31:03.424Z] [CHAT:2580b6be-0833-4832-8294-18bbbb6db2c9] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:31:03.433Z] [CHAT:2580b6be-0833-4832-8294-18bbbb6db2c9] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:31:07.299Z] [CHAT:6ae22094-c5df-4799-9389-dad3920c32a2] [INFO] Chat request received
+[2025-08-02T17:31:07.301Z] [CHAT:6ae22094-c5df-4799-9389-dad3920c32a2] [INFO] Starting chat processing
+[2025-08-02T17:31:07.302Z] [CHAT:6ae22094-c5df-4799-9389-dad3920c32a2] [DEBUG] Starting Ollama health check
+[2025-08-02T17:31:07.308Z] [CHAT:6ae22094-c5df-4799-9389-dad3920c32a2] [INFO] Ollama health check passed
+[2025-08-02T17:31:07.309Z] [CHAT:6ae22094-c5df-4799-9389-dad3920c32a2] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:31:07.310Z] [CHAT:6ae22094-c5df-4799-9389-dad3920c32a2] [DEBUG] Message 0
+[2025-08-02T17:31:07.311Z] [CHAT:6ae22094-c5df-4799-9389-dad3920c32a2] [INFO] Messages formatted successfully
+[2025-08-02T17:31:07.313Z] [CHAT:6ae22094-c5df-4799-9389-dad3920c32a2] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:31:07.315Z] [CHAT:6ae22094-c5df-4799-9389-dad3920c32a2] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:34:51.714Z] [CHAT:test-123] [INFO] Chat request received
+[2025-08-02T17:34:51.716Z] [CHAT:test-123] [INFO] Starting chat processing
+[2025-08-02T17:34:51.718Z] [CHAT:test-123] [DEBUG] Starting Ollama health check
+[2025-08-02T17:34:51.740Z] [CHAT:test-123] [INFO] Ollama health check passed
+[2025-08-02T17:34:51.741Z] [CHAT:test-123] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:34:51.742Z] [CHAT:test-123] [DEBUG] Message 0
+[2025-08-02T17:34:51.743Z] [CHAT:test-123] [INFO] Messages formatted successfully
+[2025-08-02T17:34:51.746Z] [CHAT:test-123] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:34:51.747Z] [CHAT:test-123] [INFO] Using Ollama model
+[2025-08-02T17:34:51.756Z] [CHAT:test-123] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:35:39.559Z] [CHAT:test-123] [INFO] Chat request received
+[2025-08-02T17:35:39.562Z] [CHAT:test-123] [INFO] Starting chat processing
+[2025-08-02T17:35:39.563Z] [CHAT:test-123] [DEBUG] Starting Ollama health check
+[2025-08-02T17:35:39.588Z] [CHAT:test-123] [INFO] Ollama health check passed
+[2025-08-02T17:35:39.589Z] [CHAT:test-123] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:35:39.591Z] [CHAT:test-123] [DEBUG] Message 0
+[2025-08-02T17:35:39.592Z] [CHAT:test-123] [INFO] Messages formatted successfully
+[2025-08-02T17:35:39.594Z] [CHAT:test-123] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:35:39.595Z] [CHAT:test-123] [INFO] Using Ollama model
+[2025-08-02T17:35:39.605Z] [CHAT:test-123] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:37:03.290Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Chat request received
+[2025-08-02T17:37:03.292Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Starting chat processing
+[2025-08-02T17:37:03.293Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Starting Ollama health check
+[2025-08-02T17:37:03.311Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Ollama health check passed
+[2025-08-02T17:37:03.312Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:37:03.313Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Message 0
+[2025-08-02T17:37:03.315Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Messages formatted successfully
+[2025-08-02T17:37:03.317Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:37:03.318Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Using Ollama model
+[2025-08-02T17:37:03.325Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:37:07.785Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T17:37:07.805Z] [CHAT:save-chat-api] [INFO] Processing save chat request
+[2025-08-02T17:37:07.832Z] [CHAT:save-chat-api] [INFO] Saving new chat
+[2025-08-02T17:37:07.842Z] [CHAT:save-chat-api] [INFO] Saving messages
+[2025-08-02T17:37:07.991Z] [CHAT:save-chat-api] [ERROR] Failed to save chat
+[2025-08-02T17:37:15.189Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Chat request received
+[2025-08-02T17:37:15.191Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Starting chat processing
+[2025-08-02T17:37:15.192Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Starting Ollama health check
+[2025-08-02T17:37:15.200Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Ollama health check passed
+[2025-08-02T17:37:15.202Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:37:15.203Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Message 0
+[2025-08-02T17:37:15.204Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Message 1
+[2025-08-02T17:37:15.205Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Message 2
+[2025-08-02T17:37:15.206Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Messages formatted successfully
+[2025-08-02T17:37:15.208Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:37:15.209Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Using Ollama model
+[2025-08-02T17:37:15.217Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:37:18.277Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T17:37:18.282Z] [CHAT:save-chat-api] [INFO] Processing save chat request
+[2025-08-02T17:37:18.293Z] [CHAT:save-chat-api] [INFO] Saving messages
+[2025-08-02T17:37:18.303Z] [CHAT:save-chat-api] [ERROR] Failed to save chat
+[2025-08-02T17:37:31.322Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Chat request received
+[2025-08-02T17:37:31.323Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Starting chat processing
+[2025-08-02T17:37:31.324Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Starting Ollama health check
+[2025-08-02T17:37:31.332Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Ollama health check passed
+[2025-08-02T17:37:31.333Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:37:31.334Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Message 0
+[2025-08-02T17:37:31.335Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Message 1
+[2025-08-02T17:37:31.336Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Message 2
+[2025-08-02T17:37:31.337Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Message 3
+[2025-08-02T17:37:31.338Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [DEBUG] Message 4
+[2025-08-02T17:37:31.339Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Messages formatted successfully
+[2025-08-02T17:37:31.341Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:37:31.342Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] Using Ollama model
+[2025-08-02T17:37:31.344Z] [CHAT:38a8d4ca-da24-4087-9d23-fbc52b929455] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:37:33.148Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T17:37:33.151Z] [CHAT:save-chat-api] [INFO] Processing save chat request
+[2025-08-02T17:37:33.161Z] [CHAT:save-chat-api] [INFO] Saving messages
+[2025-08-02T17:37:33.169Z] [CHAT:save-chat-api] [ERROR] Failed to save chat
+[2025-08-02T19:00:47.069Z] [CHAT:42df0bad-f3e1-4108-802e-0111296e2b67] [INFO] Chat request received
+[2025-08-02T19:00:47.073Z] [CHAT:42df0bad-f3e1-4108-802e-0111296e2b67] [INFO] Starting chat processing
+[2025-08-02T19:00:47.075Z] [CHAT:42df0bad-f3e1-4108-802e-0111296e2b67] [DEBUG] Starting Ollama health check
+[2025-08-02T19:00:47.089Z] [CHAT:42df0bad-f3e1-4108-802e-0111296e2b67] [ERROR] Ollama health check failed
+[2025-08-02T19:01:37.946Z] [CHAT:c2270fcd-5c88-4af7-82ab-3f522d5200f4] [INFO] Chat request received
+[2025-08-02T19:01:37.948Z] [CHAT:c2270fcd-5c88-4af7-82ab-3f522d5200f4] [INFO] Starting chat processing
+[2025-08-02T19:01:37.949Z] [CHAT:c2270fcd-5c88-4af7-82ab-3f522d5200f4] [DEBUG] Starting Ollama health check
+[2025-08-02T19:01:37.970Z] [CHAT:c2270fcd-5c88-4af7-82ab-3f522d5200f4] [INFO] Ollama health check passed
+[2025-08-02T19:01:37.971Z] [CHAT:c2270fcd-5c88-4af7-82ab-3f522d5200f4] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:01:37.973Z] [CHAT:c2270fcd-5c88-4af7-82ab-3f522d5200f4] [DEBUG] Message 0
+[2025-08-02T19:01:37.974Z] [CHAT:c2270fcd-5c88-4af7-82ab-3f522d5200f4] [INFO] Messages formatted successfully
+[2025-08-02T19:01:37.976Z] [CHAT:c2270fcd-5c88-4af7-82ab-3f522d5200f4] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:01:37.977Z] [CHAT:c2270fcd-5c88-4af7-82ab-3f522d5200f4] [INFO] Using Ollama model
+[2025-08-02T19:01:37.985Z] [CHAT:c2270fcd-5c88-4af7-82ab-3f522d5200f4] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T19:02:15.543Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T19:02:15.562Z] [CHAT:save-chat-api] [INFO] Processing save chat request
+[2025-08-02T19:02:15.589Z] [CHAT:save-chat-api] [INFO] Saving new chat
+[2025-08-02T19:02:15.608Z] [CHAT:save-chat-api] [INFO] Saving messages
+[2025-08-02T19:02:15.719Z] [CHAT:save-chat-api] [ERROR] Failed to save chat
+[2025-08-02T19:02:45.890Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Chat request received
+[2025-08-02T19:02:45.891Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Starting chat processing
+[2025-08-02T19:02:45.893Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [DEBUG] Starting Ollama health check
+[2025-08-02T19:02:45.902Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Ollama health check passed
+[2025-08-02T19:02:45.903Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:02:45.904Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [DEBUG] Message 0
+[2025-08-02T19:02:45.906Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Messages formatted successfully
+[2025-08-02T19:02:45.907Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:02:45.908Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Using Ollama model
+[2025-08-02T19:02:45.916Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T19:02:48.865Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T19:02:48.871Z] [CHAT:save-chat-api] [INFO] Processing save chat request
+[2025-08-02T19:02:48.883Z] [CHAT:save-chat-api] [INFO] Saving new chat
+[2025-08-02T19:02:48.894Z] [CHAT:save-chat-api] [INFO] Saving messages
+[2025-08-02T19:02:49.023Z] [CHAT:save-chat-api] [ERROR] Failed to save chat
+[2025-08-02T19:03:36.175Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Chat request received
+[2025-08-02T19:03:36.176Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Starting chat processing
+[2025-08-02T19:03:36.178Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [DEBUG] Starting Ollama health check
+[2025-08-02T19:03:36.196Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Ollama health check passed
+[2025-08-02T19:03:36.197Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:03:36.198Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [DEBUG] Message 0
+[2025-08-02T19:03:36.199Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [DEBUG] Message 1
+[2025-08-02T19:03:36.200Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [DEBUG] Message 2
+[2025-08-02T19:03:36.201Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Messages formatted successfully
+[2025-08-02T19:03:36.203Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:03:36.204Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] Using Ollama model
+[2025-08-02T19:03:36.213Z] [CHAT:ccd680a9-357d-48da-9ee8-c2b6a6a4d134] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T19:03:40.434Z] [CHAT:save-chat-api] [INFO] Save chat API called
+[2025-08-02T19:03:40.450Z] [CHAT:save-chat-api] [INFO] Processing save chat request
+[2025-08-02T19:03:40.499Z] [CHAT:save-chat-api] [INFO] Saving messages
+[2025-08-02T19:03:40.512Z] [CHAT:save-chat-api] [ERROR] Failed to save chat

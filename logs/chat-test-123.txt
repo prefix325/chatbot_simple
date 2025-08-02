@@ -1,0 +1,72 @@
+[2025-08-02T17:34:51.714Z] [INFO] Chat request received
+  Data: {
+  "chatId": "test-123",
+  "model": "chat-model",
+  "messageCount": 1
+}
+[2025-08-02T17:34:51.716Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "test-123",
+  "selectedModel": "chat-model",
+  "messagesCount": 1
+}
+[2025-08-02T17:34:51.718Z] [DEBUG] Starting Ollama health check
+[2025-08-02T17:34:51.740Z] [INFO] Ollama health check passed
+[2025-08-02T17:34:51.741Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:34:51.742Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 3
+}
+[2025-08-02T17:34:51.743Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 1,
+  "formattedCount": 1,
+  "lastMessage": {
+    "role": "user",
+    "content": "Ol�"
+  }
+}
+[2025-08-02T17:34:51.746Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:34:51.747Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T17:34:51.756Z] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T17:35:39.559Z] [INFO] Chat request received
+  Data: {
+  "chatId": "test-123",
+  "model": "chat-model",
+  "messageCount": 1
+}
+[2025-08-02T17:35:39.562Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "test-123",
+  "selectedModel": "chat-model",
+  "messagesCount": 1
+}
+[2025-08-02T17:35:39.563Z] [DEBUG] Starting Ollama health check
+[2025-08-02T17:35:39.588Z] [INFO] Ollama health check passed
+[2025-08-02T17:35:39.589Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T17:35:39.591Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 3
+}
+[2025-08-02T17:35:39.592Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 1,
+  "formattedCount": 1,
+  "lastMessage": {
+    "role": "user",
+    "content": "Ol�"
+  }
+}
+[2025-08-02T17:35:39.594Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T17:35:39.595Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T17:35:39.605Z] [INFO] StreamText created successfully, returning data stream response
