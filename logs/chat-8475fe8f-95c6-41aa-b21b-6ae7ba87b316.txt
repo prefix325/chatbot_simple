@@ -1,0 +1,138 @@
+[2025-08-02T19:31:15.304Z] [INFO] Chat request received
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "model": "chat-model",
+  "messageCount": 1
+}
+[2025-08-02T19:31:15.305Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "selectedModel": "chat-model",
+  "messagesCount": 1
+}
+[2025-08-02T19:31:15.307Z] [DEBUG] Starting Ollama health check
+[2025-08-02T19:31:15.316Z] [INFO] Ollama health check passed
+[2025-08-02T19:31:15.317Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:31:15.318Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 16
+}
+[2025-08-02T19:31:15.319Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 1,
+  "formattedCount": 1,
+  "lastMessage": {
+    "role": "user",
+    "content": "Qual o seu nome?"
+  }
+}
+[2025-08-02T19:31:15.321Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:31:15.322Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T19:31:15.325Z] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T19:31:33.888Z] [INFO] Chat request received
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "model": "chat-model",
+  "messageCount": 3
+}
+[2025-08-02T19:31:33.889Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "selectedModel": "chat-model",
+  "messagesCount": 3
+}
+[2025-08-02T19:31:33.891Z] [DEBUG] Starting Ollama health check
+[2025-08-02T19:31:33.899Z] [INFO] Ollama health check passed
+[2025-08-02T19:31:33.900Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:31:33.901Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 16
+}
+[2025-08-02T19:31:33.902Z] [DEBUG] Message 1
+  Data: {
+  "role": "assistant",
+  "contentLength": 294
+}
+[2025-08-02T19:31:33.903Z] [DEBUG] Message 2
+  Data: {
+  "role": "user",
+  "contentLength": 30
+}
+[2025-08-02T19:31:33.904Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 3,
+  "formattedCount": 3,
+  "lastMessage": {
+    "role": "user",
+    "content": "Sobre o que podemos conversar?"
+  }
+}
+[2025-08-02T19:31:33.906Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:31:33.907Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T19:31:33.909Z] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T19:31:51.719Z] [INFO] Chat request received
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "model": "chat-model",
+  "messageCount": 5
+}
+[2025-08-02T19:31:51.720Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "selectedModel": "chat-model",
+  "messagesCount": 5
+}
+[2025-08-02T19:31:51.722Z] [DEBUG] Starting Ollama health check
+[2025-08-02T19:31:51.729Z] [INFO] Ollama health check passed
+[2025-08-02T19:31:51.730Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:31:51.731Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 16
+}
+[2025-08-02T19:31:51.732Z] [DEBUG] Message 1
+  Data: {
+  "role": "assistant",
+  "contentLength": 294
+}
+[2025-08-02T19:31:51.733Z] [DEBUG] Message 2
+  Data: {
+  "role": "user",
+  "contentLength": 30
+}
+[2025-08-02T19:31:51.734Z] [DEBUG] Message 3
+  Data: {
+  "role": "assistant",
+  "contentLength": 688
+}
+[2025-08-02T19:31:51.735Z] [DEBUG] Message 4
+  Data: {
+  "role": "user",
+  "contentLength": 8
+}
+[2025-08-02T19:31:51.736Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 5,
+  "formattedCount": 5,
+  "lastMessage": {
+    "role": "user",
+    "content": "Certeza?"
+  }
+}
+[2025-08-02T19:31:51.737Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:31:51.738Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T19:31:51.740Z] [INFO] StreamText created successfully, returning data stream response

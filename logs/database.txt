@@ -45,3 +45,180 @@
   Error: [object Object]
 [2025-08-02T19:03:40.507Z] [FAILED] saveMessages for chat ccd680a9-357d-48da-9ee8-c2b6a6a4d134
   Error: invalid input syntax for type uuid: "msg-1754161365916-k0q5hk22en9"
+[2025-08-02T19:20:48.794Z] [SUCCESS] saveChat for chat 13da5c6c-061f-4948-a933-a820e4f313be
+  Error: [object Object]
+[2025-08-02T19:20:48.807Z] [SUCCESS] saveChat - completed for chat 13da5c6c-061f-4948-a933-a820e4f313be
+[2025-08-02T19:20:48.810Z] [SUCCESS] saveMessages for chat 13da5c6c-061f-4948-a933-a820e4f313be
+  Error: [object Object]
+[2025-08-02T19:20:48.824Z] [SUCCESS] saveMessages - completed for chat 13da5c6c-061f-4948-a933-a820e4f313be
+[2025-08-02T19:25:40.685Z] [SUCCESS] saveChat for chat fa7f29fe-5b1b-4eae-aeb7-71ee1269b345
+  Error: [object Object]
+[2025-08-02T19:25:40.694Z] [SUCCESS] saveChat - completed for chat fa7f29fe-5b1b-4eae-aeb7-71ee1269b345
+[2025-08-02T19:25:40.696Z] [SUCCESS] saveMessages for chat fa7f29fe-5b1b-4eae-aeb7-71ee1269b345
+  Error: [object Object]
+[2025-08-02T19:25:40.703Z] [SUCCESS] saveMessages - completed for chat fa7f29fe-5b1b-4eae-aeb7-71ee1269b345
+[2025-08-02T19:25:51.136Z] [SUCCESS] saveChat for chat 7116646a-d04f-4826-883a-4796fc8bd446
+  Error: [object Object]
+[2025-08-02T19:25:51.142Z] [SUCCESS] saveChat - completed for chat 7116646a-d04f-4826-883a-4796fc8bd446
+[2025-08-02T19:25:51.145Z] [SUCCESS] saveMessages for chat 7116646a-d04f-4826-883a-4796fc8bd446
+  Error: [object Object]
+[2025-08-02T19:25:51.150Z] [SUCCESS] saveMessages - completed for chat 7116646a-d04f-4826-883a-4796fc8bd446
+[2025-08-02T19:25:52.016Z] [SUCCESS] saveMessages for chat 7116646a-d04f-4826-883a-4796fc8bd446
+  Error: [object Object]
+[2025-08-02T19:25:52.020Z] [SUCCESS] saveMessages - completed for chat 7116646a-d04f-4826-883a-4796fc8bd446
+[2025-08-02T19:28:27.731Z] [SUCCESS] saveChat for chat 3633116f-5041-46ca-81d7-254ac1141e14
+  Error: [object Object]
+[2025-08-02T19:28:27.739Z] [SUCCESS] saveChat - completed for chat 3633116f-5041-46ca-81d7-254ac1141e14
+[2025-08-02T19:28:27.741Z] [SUCCESS] saveMessages for chat 3633116f-5041-46ca-81d7-254ac1141e14
+  Error: [object Object]
+[2025-08-02T19:28:27.747Z] [SUCCESS] saveMessages - completed for chat 3633116f-5041-46ca-81d7-254ac1141e14
+[2025-08-02T19:30:07.898Z] [SUCCESS] saveChat for chat b909d256-41e9-473f-bc3a-3242a77d8035
+  Error: [object Object]
+[2025-08-02T19:30:07.912Z] [SUCCESS] saveChat - completed for chat b909d256-41e9-473f-bc3a-3242a77d8035
+[2025-08-02T19:30:07.917Z] [SUCCESS] saveMessages for chat b909d256-41e9-473f-bc3a-3242a77d8035
+  Error: [object Object]
+[2025-08-02T19:30:07.926Z] [SUCCESS] saveMessages - completed for chat b909d256-41e9-473f-bc3a-3242a77d8035
+[2025-08-02T19:30:26.117Z] [SUCCESS] saveMessages for chat b909d256-41e9-473f-bc3a-3242a77d8035
+  Error: [object Object]
+[2025-08-02T19:30:26.121Z] [SUCCESS] saveMessages - completed for chat b909d256-41e9-473f-bc3a-3242a77d8035
+[2025-08-02T19:30:34.688Z] [SUCCESS] saveMessages for chat b909d256-41e9-473f-bc3a-3242a77d8035
+  Error: [object Object]
+[2025-08-02T19:30:34.695Z] [FAILED] saveMessages for chat b909d256-41e9-473f-bc3a-3242a77d8035
+  Error: duplicate key value violates unique constraint "Message_v2_pkey"
+[2025-08-02T19:30:35.260Z] [SUCCESS] saveMessages for chat b909d256-41e9-473f-bc3a-3242a77d8035
+  Error: [object Object]
+[2025-08-02T19:30:35.266Z] [FAILED] saveMessages for chat b909d256-41e9-473f-bc3a-3242a77d8035
+  Error: duplicate key value violates unique constraint "Message_v2_pkey"
+[2025-08-02T19:31:00.051Z] [SUCCESS] saveMessages for chat b909d256-41e9-473f-bc3a-3242a77d8035
+  Error: [object Object]
+[2025-08-02T19:31:00.055Z] [FAILED] saveMessages for chat b909d256-41e9-473f-bc3a-3242a77d8035
+  Error: duplicate key value violates unique constraint "Message_v2_pkey"
+[2025-08-02T19:31:16.940Z] [SUCCESS] saveChat for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: [object Object]
+[2025-08-02T19:31:16.951Z] [SUCCESS] saveChat - completed for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+[2025-08-02T19:31:16.956Z] [SUCCESS] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: [object Object]
+[2025-08-02T19:31:16.971Z] [SUCCESS] saveMessages - completed for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+[2025-08-02T19:31:19.536Z] [SUCCESS] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: [object Object]
+[2025-08-02T19:31:19.541Z] [SUCCESS] saveMessages - completed for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+[2025-08-02T19:31:34.896Z] [SUCCESS] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: [object Object]
+[2025-08-02T19:31:34.904Z] [FAILED] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: duplicate key value violates unique constraint "Message_v2_pkey"
+[2025-08-02T19:31:35.366Z] [SUCCESS] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: [object Object]
+[2025-08-02T19:31:35.372Z] [FAILED] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: duplicate key value violates unique constraint "Message_v2_pkey"
+[2025-08-02T19:31:42.879Z] [SUCCESS] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: [object Object]
+[2025-08-02T19:31:42.883Z] [FAILED] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: duplicate key value violates unique constraint "Message_v2_pkey"
+[2025-08-02T19:31:52.725Z] [SUCCESS] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: [object Object]
+[2025-08-02T19:31:52.730Z] [FAILED] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: duplicate key value violates unique constraint "Message_v2_pkey"
+[2025-08-02T19:31:53.175Z] [SUCCESS] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: [object Object]
+[2025-08-02T19:31:53.182Z] [FAILED] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: duplicate key value violates unique constraint "Message_v2_pkey"
+[2025-08-02T19:32:07.819Z] [SUCCESS] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: [object Object]
+[2025-08-02T19:32:07.823Z] [FAILED] saveMessages for chat 8475fe8f-95c6-41aa-b21b-6ae7ba87b316
+  Error: duplicate key value violates unique constraint "Message_v2_pkey"
+[2025-08-02T19:35:21.200Z] [SUCCESS] saveChat for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+  Error: [object Object]
+[2025-08-02T19:35:21.215Z] [SUCCESS] saveChat - completed for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+[2025-08-02T19:35:21.223Z] [SUCCESS] saveMessages for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+  Error: [object Object]
+[2025-08-02T19:35:21.232Z] [SUCCESS] saveMessages - completed for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+[2025-08-02T19:35:25.929Z] [SUCCESS] saveMessages for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+  Error: [object Object]
+[2025-08-02T19:35:25.938Z] [SUCCESS] saveMessages - completed for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+[2025-08-02T19:35:28.222Z] [SUCCESS] saveMessages for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+  Error: [object Object]
+[2025-08-02T19:35:28.227Z] [SUCCESS] saveMessages - completed for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+[2025-08-02T19:35:32.589Z] [SUCCESS] saveMessages for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+  Error: [object Object]
+[2025-08-02T19:35:32.596Z] [SUCCESS] saveMessages - completed for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+[2025-08-02T19:35:32.964Z] [SUCCESS] saveMessages for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+  Error: [object Object]
+[2025-08-02T19:35:32.972Z] [SUCCESS] saveMessages - completed for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+[2025-08-02T19:35:36.875Z] [SUCCESS] saveMessages for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+  Error: [object Object]
+[2025-08-02T19:35:36.879Z] [SUCCESS] saveMessages - completed for chat 29d96fc1-d8a0-4501-94a3-b8bb4a882ebe
+[2025-08-02T19:40:45.145Z] [SUCCESS] saveChat for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:40:45.157Z] [SUCCESS] saveChat - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:40:45.163Z] [SUCCESS] saveMessages for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:40:45.169Z] [SUCCESS] saveMessages - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:40:46.537Z] [SUCCESS] saveMessages for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:40:46.545Z] [SUCCESS] saveMessages - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:40:46.895Z] [SUCCESS] saveMessages for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:40:46.906Z] [SUCCESS] saveMessages - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:40:48.510Z] [SUCCESS] saveMessages for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:40:48.515Z] [SUCCESS] saveMessages - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:40:53.478Z] [SUCCESS] saveMessages for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:40:53.486Z] [SUCCESS] saveMessages - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:40:53.919Z] [SUCCESS] saveMessages for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:40:53.927Z] [SUCCESS] saveMessages - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:41:01.011Z] [SUCCESS] saveMessages for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:41:01.015Z] [SUCCESS] saveMessages - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:41:08.009Z] [SUCCESS] saveMessages for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:41:08.016Z] [SUCCESS] saveMessages - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:41:08.421Z] [SUCCESS] saveMessages for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:41:08.427Z] [SUCCESS] saveMessages - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:41:09.304Z] [SUCCESS] saveMessages for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+  Error: [object Object]
+[2025-08-02T19:41:09.308Z] [SUCCESS] saveMessages - completed for chat 7587ee68-6e03-4313-8684-ebf25dcb0d1d
+[2025-08-02T19:47:01.250Z] [SUCCESS] saveChat for chat da66f77c-85ad-4089-86cb-48a957fff396
+  Error: [object Object]
+[2025-08-02T19:47:01.261Z] [SUCCESS] saveChat - completed for chat da66f77c-85ad-4089-86cb-48a957fff396
+[2025-08-02T19:47:01.264Z] [SUCCESS] upsertMessages for chat da66f77c-85ad-4089-86cb-48a957fff396
+  Error: [object Object]
+[2025-08-02T19:47:01.271Z] [SUCCESS] upsertMessages - completed for chat da66f77c-85ad-4089-86cb-48a957fff396
+[2025-08-02T19:47:53.643Z] [SUCCESS] saveChat for chat a2f6dcdf-2bad-4f75-8cb9-ceb13355069a
+  Error: [object Object]
+[2025-08-02T19:47:53.648Z] [SUCCESS] saveChat - completed for chat a2f6dcdf-2bad-4f75-8cb9-ceb13355069a
+[2025-08-02T19:47:53.651Z] [SUCCESS] upsertMessages for chat a2f6dcdf-2bad-4f75-8cb9-ceb13355069a
+  Error: [object Object]
+[2025-08-02T19:47:53.656Z] [SUCCESS] upsertMessages - completed for chat a2f6dcdf-2bad-4f75-8cb9-ceb13355069a
+[2025-08-02T19:49:08.822Z] [SUCCESS] saveChat for chat df0b3091-9eb0-4666-b761-bfeda8d3b9c8
+  Error: [object Object]
+[2025-08-02T19:49:08.827Z] [SUCCESS] saveChat - completed for chat df0b3091-9eb0-4666-b761-bfeda8d3b9c8
+[2025-08-02T19:49:08.830Z] [SUCCESS] upsertMessages for chat df0b3091-9eb0-4666-b761-bfeda8d3b9c8
+  Error: [object Object]
+[2025-08-02T19:49:08.834Z] [SUCCESS] upsertMessages - completed for chat df0b3091-9eb0-4666-b761-bfeda8d3b9c8
+[2025-08-02T19:49:08.877Z] [SUCCESS] upsertMessages for chat df0b3091-9eb0-4666-b761-bfeda8d3b9c8
+  Error: [object Object]
+[2025-08-02T19:49:08.880Z] [SUCCESS] upsertMessages - completed for chat df0b3091-9eb0-4666-b761-bfeda8d3b9c8
+[2025-08-02T19:49:08.910Z] [SUCCESS] upsertMessages for chat df0b3091-9eb0-4666-b761-bfeda8d3b9c8
+  Error: [object Object]
+[2025-08-02T19:49:08.914Z] [SUCCESS] upsertMessages - completed for chat df0b3091-9eb0-4666-b761-bfeda8d3b9c8
+[2025-08-02T19:49:39.854Z] [SUCCESS] upsertMessages for chat da66f77c-85ad-4089-86cb-48a957fff396
+  Error: [object Object]
+[2025-08-02T19:49:39.864Z] [SUCCESS] upsertMessages - completed for chat da66f77c-85ad-4089-86cb-48a957fff396
+[2025-08-02T19:49:40.318Z] [SUCCESS] upsertMessages for chat da66f77c-85ad-4089-86cb-48a957fff396
+  Error: [object Object]
+[2025-08-02T19:49:40.325Z] [SUCCESS] upsertMessages - completed for chat da66f77c-85ad-4089-86cb-48a957fff396
+[2025-08-02T19:49:41.497Z] [SUCCESS] upsertMessages for chat da66f77c-85ad-4089-86cb-48a957fff396
+  Error: [object Object]
+[2025-08-02T19:49:41.502Z] [SUCCESS] upsertMessages - completed for chat da66f77c-85ad-4089-86cb-48a957fff396
+[2025-08-02T19:50:36.999Z] [SUCCESS] upsertMessages for chat da66f77c-85ad-4089-86cb-48a957fff396
+  Error: [object Object]
+[2025-08-02T19:50:37.007Z] [SUCCESS] upsertMessages - completed for chat da66f77c-85ad-4089-86cb-48a957fff396
+[2025-08-02T19:50:37.431Z] [SUCCESS] upsertMessages for chat da66f77c-85ad-4089-86cb-48a957fff396
+  Error: [object Object]
+[2025-08-02T19:50:37.436Z] [SUCCESS] upsertMessages - completed for chat da66f77c-85ad-4089-86cb-48a957fff396
+[2025-08-02T19:50:38.409Z] [SUCCESS] upsertMessages for chat da66f77c-85ad-4089-86cb-48a957fff396
+  Error: [object Object]
+[2025-08-02T19:50:38.414Z] [SUCCESS] upsertMessages - completed for chat da66f77c-85ad-4089-86cb-48a957fff396

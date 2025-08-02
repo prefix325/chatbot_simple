@@ -2,7 +2,7 @@
 
 import type { Attachment, UIMessage } from 'ai';
 import { useChat } from '@ai-sdk/react';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import useSWR, { useSWRConfig } from 'swr';
 import { ChatHeader } from '@/components/chat-header';
 import type { Vote } from '@/lib/db/schema';
@@ -30,11 +30,52 @@ export function Chat({
   isReadonly: boolean;
 }) {
   const { mutate } = useSWRConfig();
+  const lastMessageCountRef = useRef(0);
+  const savingRef = useRef(false);
+  const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Função para salvar chat e mensagens
-  const saveChatAndMessages = async (chatId: string, messages: Array<UIMessage>) => {
+  // Função para salvar chat e mensagens com debounce
+  const saveChatAndMessages = async (chatId: string, currentMessages: Array<UIMessage>) => {
     try {
-      console.log('Saving chat and messages to database...', { chatId, messageCount: messages.length });
+      // Verificar se já está salvando para evitar chamadas duplicadas
+      if (savingRef.current) {
+        console.log('Save already in progress, skipping...');
+        return;
+      }
+
+      savingRef.current = true;
+
+      // Verificar se há mensagens para salvar
+      if (!currentMessages || currentMessages.length === 0) {
+        console.log('No messages to save, skipping database save');
+        return;
+      }
+
+      console.log('Saving chat and messages to database...', { 
+        chatId, 
+        messageCount: currentMessages.length,
+        lastMessage: currentMessages[currentMessages.length - 1]?.content || 'No content'
+      });
+      
+      // Filtrar mensagens válidas e garantir que tenham IDs válidos
+      const validMessages = currentMessages.filter(msg => 
+        msg && msg.role && (msg.content || (msg.parts && msg.parts.length > 0))
+      ).map(msg => ({
+        ...msg,
+        id: msg.id || generateUUID(), // Garantir que cada mensagem tenha um UUID válido
+        createdAt: msg.createdAt || new Date().toISOString()
+      }));
+
+      if (validMessages.length === 0) {
+        console.log('No valid messages to save after filtering');
+        return;
+      }
+
+      console.log('Valid messages to save:', validMessages.map(m => ({
+        id: m.id,
+        role: m.role,
+        content: m.content?.substring(0, 50) + '...'
+      })));
       
       const response = await fetch('/api/save-chat', {
         method: 'POST',
@@ -43,7 +84,7 @@ export function Chat({
         },
         body: JSON.stringify({
           chatId,
-          messages
+          messages: validMessages
         }),
       });
 
@@ -58,7 +99,22 @@ export function Chat({
     } catch (error) {
       console.error('Failed to save chat:', error);
       toast.error(`Erro ao salvar chat: ${error instanceof Error ? error.message : 'Erro desconhecido'}`);
+    } finally {
+      savingRef.current = false;
     }
+  };
+
+  // Função com debounce para evitar múltiplas chamadas
+  const debouncedSave = (chatId: string, currentMessages: Array<UIMessage>) => {
+    // Cancelar timeout anterior se existir
+    if (saveTimeoutRef.current) {
+      clearTimeout(saveTimeoutRef.current);
+    }
+
+    // Criar novo timeout
+    saveTimeoutRef.current = setTimeout(() => {
+      saveChatAndMessages(chatId, currentMessages);
+    }, 1000); // Debounce de 1 segundo
   };
 
   const {
@@ -78,12 +134,35 @@ export function Chat({
     experimental_throttle: 100,
     sendExtraMessageFields: true,
     generateId: generateUUID,
-    onFinish: () => {
+    onFinish: (message, options) => {
       console.log('Chat finished successfully');
+      console.log('onFinish - message:', message);
+      console.log('onFinish - current messages count:', messages.length);
+      console.log('onFinish - options:', options);
+      
       mutate(unstable_serialize(getChatHistoryPaginationKey));
       
-      // Salvar chat e mensagens no banco de dados
-      saveChatAndMessages(id, messages);
+      // Usar debounce para evitar múltiplas chamadas
+      const getAllMessages = () => {
+        const allMessages = [...messages];
+        
+        if (message && message.role === 'assistant') {
+          const messageExists = allMessages.some(m => m.id === message.id);
+          if (!messageExists) {
+            const uiMessage: UIMessage = {
+              ...message,
+              parts: message.parts || (message.content ? [{ type: 'text', text: message.content }] : [])
+            };
+            allMessages.push(uiMessage);
+          }
+        }
+        
+        return allMessages;
+      };
+      
+      const currentMessages = getAllMessages();
+      console.log('onFinish - triggering debounced save with messages:', currentMessages.length);
+      debouncedSave(id, currentMessages);
     },
     onResponse: (response) => {
       console.log('Chat API response received:', {
@@ -148,6 +227,30 @@ export function Chat({
 
   const [attachments, setAttachments] = useState<Array<Attachment>>([]);
   const isArtifactVisible = useArtifactSelector((state) => state.isVisible);
+
+  // Efeito para detectar mudanças nas mensagens e salvar automaticamente
+  useEffect(() => {
+    if (messages.length > lastMessageCountRef.current && messages.length > 1) {
+      console.log('New messages detected, triggering debounced save...', {
+        previousCount: lastMessageCountRef.current,
+        currentCount: messages.length
+      });
+      
+      // Usar debounce em vez de timeout direto
+      debouncedSave(id, messages);
+    }
+    
+    lastMessageCountRef.current = messages.length;
+  }, [messages.length, id]);
+
+  // Cleanup do timeout quando o componente for desmontado
+  useEffect(() => {
+    return () => {
+      if (saveTimeoutRef.current) {
+        clearTimeout(saveTimeoutRef.current);
+      }
+    };
+  }, []);
 
   return (
     <>

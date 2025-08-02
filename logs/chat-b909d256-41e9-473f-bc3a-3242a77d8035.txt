@@ -1,0 +1,82 @@
+[2025-08-02T19:30:04.175Z] [INFO] Chat request received
+  Data: {
+  "chatId": "b909d256-41e9-473f-bc3a-3242a77d8035",
+  "model": "chat-model",
+  "messageCount": 1
+}
+[2025-08-02T19:30:04.176Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "b909d256-41e9-473f-bc3a-3242a77d8035",
+  "selectedModel": "chat-model",
+  "messagesCount": 1
+}
+[2025-08-02T19:30:04.177Z] [DEBUG] Starting Ollama health check
+[2025-08-02T19:30:04.189Z] [INFO] Ollama health check passed
+[2025-08-02T19:30:04.190Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:30:04.191Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 25
+}
+[2025-08-02T19:30:04.192Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 1,
+  "formattedCount": 1,
+  "lastMessage": {
+    "role": "user",
+    "content": "Quantos sóis tem a Terra?"
+  }
+}
+[2025-08-02T19:30:04.194Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:30:04.195Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T19:30:04.203Z] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T19:30:33.684Z] [INFO] Chat request received
+  Data: {
+  "chatId": "b909d256-41e9-473f-bc3a-3242a77d8035",
+  "model": "chat-model",
+  "messageCount": 3
+}
+[2025-08-02T19:30:33.685Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "b909d256-41e9-473f-bc3a-3242a77d8035",
+  "selectedModel": "chat-model",
+  "messagesCount": 3
+}
+[2025-08-02T19:30:33.686Z] [DEBUG] Starting Ollama health check
+[2025-08-02T19:30:33.694Z] [INFO] Ollama health check passed
+[2025-08-02T19:30:33.695Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:30:33.696Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 25
+}
+[2025-08-02T19:30:33.697Z] [DEBUG] Message 1
+  Data: {
+  "role": "assistant",
+  "contentLength": 1599
+}
+[2025-08-02T19:30:33.698Z] [DEBUG] Message 2
+  Data: {
+  "role": "user",
+  "contentLength": 38
+}
+[2025-08-02T19:30:33.699Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 3,
+  "formattedCount": 3,
+  "lastMessage": {
+    "role": "user",
+    "content": "Qual o tamanho do nosso sistema solar?"
+  }
+}
+[2025-08-02T19:30:33.701Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:30:33.702Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T19:30:33.707Z] [INFO] StreamText created successfully, returning data stream response

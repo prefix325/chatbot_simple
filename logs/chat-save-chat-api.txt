@@ -270,3 +270,1227 @@
   Data: {
   "error": "invalid input syntax for type uuid: \"msg-1754161365916-k0q5hk22en9\""
 }
+[2025-08-02T19:20:48.155Z] [INFO] Save chat API called
+[2025-08-02T19:20:48.468Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:20:48.469Z] [INFO] Using test user for development
+[2025-08-02T19:20:48.470Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "13da5c6c-061f-4948-a933-a820e4f313be",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:20:48.594Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"f4a01899-bfb1-4a5c-bd19-c0aa494d7f51\",\"role\":\"user\",\"content\":\"Hello, this is a test message\",\"parts\":[{\"type\":\"text\",\"text\":\"Hello, this is a test message\"}],\"attachments\":[],\"createdAt\":\"2025-08-02T19:20:44.757Z\"}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:20:48 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:20:48.793Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "13da5c6c-061f-4948-a933-a820e4f313be",
+  "title": "New Chat"
+}
+[2025-08-02T19:20:48.808Z] [INFO] Saving messages
+  Data: {
+  "count": 2
+}
+[2025-08-02T19:20:48.824Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:25:40.289Z] [INFO] Save chat API called
+[2025-08-02T19:25:40.294Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:25:40.295Z] [INFO] Using test user for development
+[2025-08-02T19:25:40.297Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "fa7f29fe-5b1b-4eae-aeb7-71ee1269b345",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:25:40.509Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"f82b5063-7149-437b-a789-8b994ae8381a\",\"role\":\"user\",\"content\":\"Hello, this is a test message\",\"parts\":[{\"type\":\"text\",\"text\":\"Hello, this is a test message\"}],\"attachments\":[],\"createdAt\":\"2025-08-02T19:25:37.904Z\"}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:25:40 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:25:40.683Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "fa7f29fe-5b1b-4eae-aeb7-71ee1269b345",
+  "title": "New Chat"
+}
+[2025-08-02T19:25:40.695Z] [INFO] Saving messages
+  Data: {
+  "count": 2
+}
+[2025-08-02T19:25:40.704Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:25:50.957Z] [INFO] Save chat API called
+[2025-08-02T19:25:50.976Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:25:50.977Z] [INFO] Using test user for development
+[2025-08-02T19:25:50.978Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7116646a-d04f-4826-883a-4796fc8bd446",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:25:51.029Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"cad7f64b-60da-4866-9e41-ecf463ef7dee\",\"createdAt\":\"2025-08-02T19:25:43.779Z\",\"role\":\"user\",\"content\":\"Conte uma piada\",\"parts\":[{\"type\":\"text\",\"text\":\"Conte uma piada\"}]}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:25:51 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:25:51.134Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "7116646a-d04f-4826-883a-4796fc8bd446",
+  "title": "New Chat"
+}
+[2025-08-02T19:25:51.143Z] [INFO] Saving messages
+  Data: {
+  "count": 2
+}
+[2025-08-02T19:25:51.150Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:25:52.001Z] [INFO] Save chat API called
+[2025-08-02T19:25:52.008Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:25:52.009Z] [INFO] Using test user for development
+[2025-08-02T19:25:52.010Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7116646a-d04f-4826-883a-4796fc8bd446",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 1
+}
+[2025-08-02T19:25:52.015Z] [INFO] Saving messages
+  Data: {
+  "count": 1
+}
+[2025-08-02T19:25:52.021Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:28:27.380Z] [INFO] Save chat API called
+[2025-08-02T19:28:27.389Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:28:27.390Z] [INFO] Using test user for development
+[2025-08-02T19:28:27.391Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "3633116f-5041-46ca-81d7-254ac1141e14",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:28:27.444Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"1e60d780-fb49-4c09-8207-bc58d13d3ff1\",\"role\":\"user\",\"content\":\"Hello, this is a test message\",\"parts\":[{\"type\":\"text\",\"text\":\"Hello, this is a test message\"}],\"attachments\":[],\"createdAt\":\"2025-08-02T19:28:25.651Z\"}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:28:27 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:28:27.730Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "3633116f-5041-46ca-81d7-254ac1141e14",
+  "title": "New Chat"
+}
+[2025-08-02T19:28:27.740Z] [INFO] Saving messages
+  Data: {
+  "count": 2
+}
+[2025-08-02T19:28:27.748Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:30:07.581Z] [INFO] Save chat API called
+[2025-08-02T19:30:07.611Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:30:07.612Z] [INFO] Using test user for development
+[2025-08-02T19:30:07.615Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "b909d256-41e9-473f-bc3a-3242a77d8035",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:30:07.698Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"7fb04849-46bc-4082-810f-490b4208493a\",\"createdAt\":\"2025-08-02T19:30:02.779Z\",\"role\":\"user\",\"content\":\"Quantos sóis tem a Terra?\",\"parts\":[{\"type\":\"text\",\"text\":\"Quantos sóis tem a Terra?\"}]}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:30:07 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:30:07.895Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "b909d256-41e9-473f-bc3a-3242a77d8035",
+  "title": "New Chat"
+}
+[2025-08-02T19:30:07.914Z] [INFO] Saving messages
+  Data: {
+  "count": 2
+}
+[2025-08-02T19:30:07.927Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:30:26.107Z] [INFO] Save chat API called
+[2025-08-02T19:30:26.109Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:30:26.110Z] [INFO] Using test user for development
+[2025-08-02T19:30:26.111Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "b909d256-41e9-473f-bc3a-3242a77d8035",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 1
+}
+[2025-08-02T19:30:26.116Z] [INFO] Saving messages
+  Data: {
+  "count": 1
+}
+[2025-08-02T19:30:26.122Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:30:34.672Z] [INFO] Save chat API called
+[2025-08-02T19:30:34.677Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:30:34.678Z] [INFO] Using test user for development
+[2025-08-02T19:30:34.680Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "b909d256-41e9-473f-bc3a-3242a77d8035",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:30:34.686Z] [INFO] Saving messages
+  Data: {
+  "count": 3
+}
+[2025-08-02T19:30:34.700Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "duplicate key value violates unique constraint \"Message_v2_pkey\""
+}
+[2025-08-02T19:30:35.246Z] [INFO] Save chat API called
+[2025-08-02T19:30:35.249Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:30:35.250Z] [INFO] Using test user for development
+[2025-08-02T19:30:35.252Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "b909d256-41e9-473f-bc3a-3242a77d8035",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 4
+}
+[2025-08-02T19:30:35.258Z] [INFO] Saving messages
+  Data: {
+  "count": 4
+}
+[2025-08-02T19:30:35.270Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "duplicate key value violates unique constraint \"Message_v2_pkey\""
+}
+[2025-08-02T19:31:00.042Z] [INFO] Save chat API called
+[2025-08-02T19:31:00.044Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:31:00.045Z] [INFO] Using test user for development
+[2025-08-02T19:31:00.046Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "b909d256-41e9-473f-bc3a-3242a77d8035",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:31:00.050Z] [INFO] Saving messages
+  Data: {
+  "count": 3
+}
+[2025-08-02T19:31:00.058Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "duplicate key value violates unique constraint \"Message_v2_pkey\""
+}
+[2025-08-02T19:31:16.702Z] [INFO] Save chat API called
+[2025-08-02T19:31:16.712Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:31:16.713Z] [INFO] Using test user for development
+[2025-08-02T19:31:16.715Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:31:16.768Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"bfdba684-1d74-4ed3-8055-f527f7f9f5a8\",\"createdAt\":\"2025-08-02T19:31:15.228Z\",\"role\":\"user\",\"content\":\"Qual o seu nome?\",\"parts\":[{\"type\":\"text\",\"text\":\"Qual o seu nome?\"}]}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:31:16 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:31:16.938Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "title": "New Chat"
+}
+[2025-08-02T19:31:16.953Z] [INFO] Saving messages
+  Data: {
+  "count": 2
+}
+[2025-08-02T19:31:16.972Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:31:19.527Z] [INFO] Save chat API called
+[2025-08-02T19:31:19.529Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:31:19.530Z] [INFO] Using test user for development
+[2025-08-02T19:31:19.531Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 1
+}
+[2025-08-02T19:31:19.535Z] [INFO] Saving messages
+  Data: {
+  "count": 1
+}
+[2025-08-02T19:31:19.542Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:31:34.879Z] [INFO] Save chat API called
+[2025-08-02T19:31:34.883Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:31:34.884Z] [INFO] Using test user for development
+[2025-08-02T19:31:34.887Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:31:34.895Z] [INFO] Saving messages
+  Data: {
+  "count": 3
+}
+[2025-08-02T19:31:34.918Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "duplicate key value violates unique constraint \"Message_v2_pkey\""
+}
+[2025-08-02T19:31:35.350Z] [INFO] Save chat API called
+[2025-08-02T19:31:35.353Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:31:35.354Z] [INFO] Using test user for development
+[2025-08-02T19:31:35.356Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 4
+}
+[2025-08-02T19:31:35.364Z] [INFO] Saving messages
+  Data: {
+  "count": 4
+}
+[2025-08-02T19:31:35.377Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "duplicate key value violates unique constraint \"Message_v2_pkey\""
+}
+[2025-08-02T19:31:42.870Z] [INFO] Save chat API called
+[2025-08-02T19:31:42.872Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:31:42.873Z] [INFO] Using test user for development
+[2025-08-02T19:31:42.874Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:31:42.878Z] [INFO] Saving messages
+  Data: {
+  "count": 3
+}
+[2025-08-02T19:31:42.885Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "duplicate key value violates unique constraint \"Message_v2_pkey\""
+}
+[2025-08-02T19:31:52.712Z] [INFO] Save chat API called
+[2025-08-02T19:31:52.715Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:31:52.716Z] [INFO] Using test user for development
+[2025-08-02T19:31:52.719Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 5
+}
+[2025-08-02T19:31:52.724Z] [INFO] Saving messages
+  Data: {
+  "count": 5
+}
+[2025-08-02T19:31:52.734Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "duplicate key value violates unique constraint \"Message_v2_pkey\""
+}
+[2025-08-02T19:31:53.162Z] [INFO] Save chat API called
+[2025-08-02T19:31:53.165Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:31:53.167Z] [INFO] Using test user for development
+[2025-08-02T19:31:53.168Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 6
+}
+[2025-08-02T19:31:53.173Z] [INFO] Saving messages
+  Data: {
+  "count": 6
+}
+[2025-08-02T19:31:53.185Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "duplicate key value violates unique constraint \"Message_v2_pkey\""
+}
+[2025-08-02T19:32:07.810Z] [INFO] Save chat API called
+[2025-08-02T19:32:07.812Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:32:07.813Z] [INFO] Using test user for development
+[2025-08-02T19:32:07.814Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "8475fe8f-95c6-41aa-b21b-6ae7ba87b316",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 5
+}
+[2025-08-02T19:32:07.818Z] [INFO] Saving messages
+  Data: {
+  "count": 5
+}
+[2025-08-02T19:32:07.826Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "duplicate key value violates unique constraint \"Message_v2_pkey\""
+}
+[2025-08-02T19:35:20.968Z] [INFO] Save chat API called
+[2025-08-02T19:35:20.997Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "29d96fc1-d8a0-4501-94a3-b8bb4a882ebe",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:35:21.067Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"d0ff0d5d-7a85-4826-bcef-183192964051\",\"createdAt\":\"2025-08-02T19:35:13.542Z\",\"role\":\"user\",\"content\":\"Oi\",\"parts\":[{\"type\":\"text\",\"text\":\"Oi\"}]}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:35:21 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:35:21.198Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "29d96fc1-d8a0-4501-94a3-b8bb4a882ebe",
+  "title": "New Chat"
+}
+[2025-08-02T19:35:21.221Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 2,
+  "existingMessages": 0,
+  "newMessages": 2,
+  "newMessageIds": [
+    "d0ff0d5d-7a85-4826-bcef-183192964051",
+    "9f9e8e06-58f2-4524-adb1-c66166e5c01b"
+  ]
+}
+[2025-08-02T19:35:21.233Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:35:25.846Z] [INFO] Save chat API called
+[2025-08-02T19:35:25.884Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "29d96fc1-d8a0-4501-94a3-b8bb4a882ebe",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:35:25.927Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 3,
+  "existingMessages": 2,
+  "newMessages": 2,
+  "newMessageIds": [
+    "cdfe2be4-c424-4218-9004-178d0589b64f",
+    "6a5631fe-375b-436d-adac-331fe5603468"
+  ]
+}
+[2025-08-02T19:35:25.939Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:35:28.212Z] [INFO] Save chat API called
+[2025-08-02T19:35:28.215Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "29d96fc1-d8a0-4501-94a3-b8bb4a882ebe",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:35:28.221Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 3,
+  "existingMessages": 4,
+  "newMessages": 2,
+  "newMessageIds": [
+    "eb474448-97dc-48bd-84d2-0d3fea6ec0de",
+    "48ab077d-e779-4e9b-a7b6-d5747ddde84e"
+  ]
+}
+[2025-08-02T19:35:28.227Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:35:32.566Z] [INFO] Save chat API called
+[2025-08-02T19:35:32.578Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "29d96fc1-d8a0-4501-94a3-b8bb4a882ebe",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 5
+}
+[2025-08-02T19:35:32.587Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 5,
+  "existingMessages": 6,
+  "newMessages": 3,
+  "newMessageIds": [
+    "21d52181-c83a-44a6-9f7f-c4b2c9c0efab",
+    "155a1187-812b-49da-bfa5-b388d0e34b74",
+    "4029a8b6-6f84-4cd3-a17a-a78848c82583"
+  ]
+}
+[2025-08-02T19:35:32.597Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:35:32.948Z] [INFO] Save chat API called
+[2025-08-02T19:35:32.953Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "29d96fc1-d8a0-4501-94a3-b8bb4a882ebe",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 6
+}
+[2025-08-02T19:35:32.962Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 6,
+  "existingMessages": 9,
+  "newMessages": 3,
+  "newMessageIds": [
+    "10ed008e-ee87-4389-a545-c35773d49daf",
+    "dd5e90ff-d29f-426f-a33c-53cef2bdf837",
+    "bd68a24f-01e7-420a-b22f-1c0359763814"
+  ]
+}
+[2025-08-02T19:35:32.973Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:35:36.864Z] [INFO] Save chat API called
+[2025-08-02T19:35:36.867Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "29d96fc1-d8a0-4501-94a3-b8bb4a882ebe",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 5
+}
+[2025-08-02T19:35:36.873Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 5,
+  "existingMessages": 12,
+  "newMessages": 3,
+  "newMessageIds": [
+    "2f981069-5c54-4b2f-910b-3a251492acea",
+    "917aee9a-d827-4a82-89e3-7536ec2c52b9",
+    "0e447ac6-02b4-4420-9627-38deaf883e33"
+  ]
+}
+[2025-08-02T19:35:36.880Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:40:44.913Z] [INFO] Save chat API called
+[2025-08-02T19:40:44.933Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:40:44.975Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"1df172e2-1546-4400-959f-3c5ab5575939\",\"createdAt\":\"2025-08-02T19:40:38.341Z\",\"role\":\"user\",\"content\":\"Oi\",\"parts\":[{\"type\":\"text\",\"text\":\"Oi\"}]}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:40:44 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:40:45.144Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "title": "New Chat"
+}
+[2025-08-02T19:40:45.161Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 2,
+  "existingMessages": 0,
+  "newMessages": 2,
+  "newMessageIds": [
+    "1df172e2-1546-4400-959f-3c5ab5575939",
+    "07530644-7082-41c7-b0bc-2d9827008137"
+  ]
+}
+[2025-08-02T19:40:45.169Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:40:46.511Z] [INFO] Save chat API called
+[2025-08-02T19:40:46.521Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:40:46.534Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 3,
+  "existingMessages": 2,
+  "newMessages": 2,
+  "newMessageIds": [
+    "d3586a12-a389-4f4d-9783-c8d535ea975d",
+    "12b080cb-c291-455e-86e1-115356699274"
+  ]
+}
+[2025-08-02T19:40:46.546Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:40:46.878Z] [INFO] Save chat API called
+[2025-08-02T19:40:46.883Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 4
+}
+[2025-08-02T19:40:46.893Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 4,
+  "existingMessages": 4,
+  "newMessages": 2,
+  "newMessageIds": [
+    "65a92bb7-0a0f-4365-af91-8375e8913340",
+    "47f7d248-0e1e-4905-b3eb-c2f4b0535bef"
+  ]
+}
+[2025-08-02T19:40:46.907Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:40:48.499Z] [INFO] Save chat API called
+[2025-08-02T19:40:48.502Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:40:48.509Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 3,
+  "existingMessages": 6,
+  "newMessages": 2,
+  "newMessageIds": [
+    "3bf61905-69b3-4caa-a609-ff9fb8c55563",
+    "4526711d-a295-467a-acd2-30259ee07b7e"
+  ]
+}
+[2025-08-02T19:40:48.515Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:40:53.457Z] [INFO] Save chat API called
+[2025-08-02T19:40:53.466Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 5
+}
+[2025-08-02T19:40:53.475Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 5,
+  "existingMessages": 8,
+  "newMessages": 3,
+  "newMessageIds": [
+    "81fd0b7e-0b55-44c1-bdfe-b8ee53d0e1c3",
+    "9411b6e3-d7e0-48b2-ab86-a5ccad367f4b",
+    "62f33a4e-6dbe-45c1-888d-33105a100403"
+  ]
+}
+[2025-08-02T19:40:53.487Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:40:53.900Z] [INFO] Save chat API called
+[2025-08-02T19:40:53.908Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 6
+}
+[2025-08-02T19:40:53.917Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 6,
+  "existingMessages": 11,
+  "newMessages": 3,
+  "newMessageIds": [
+    "7c455491-c262-4c1e-813c-fcd8dffe45e3",
+    "94be0110-333b-4cb5-824f-0136074215f5",
+    "026ecee0-3bc1-4f86-9ada-3415162b4b7c"
+  ]
+}
+[2025-08-02T19:40:53.928Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:41:01.000Z] [INFO] Save chat API called
+[2025-08-02T19:41:01.004Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 5
+}
+[2025-08-02T19:41:01.010Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 5,
+  "existingMessages": 14,
+  "newMessages": 3,
+  "newMessageIds": [
+    "bceec5a4-af41-464c-b7be-e965ef140761",
+    "c64b8551-2f46-447b-9e21-e74887de93f9",
+    "9fac7976-6c5c-4395-8eab-70eacc2e0d88"
+  ]
+}
+[2025-08-02T19:41:01.016Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:41:07.993Z] [INFO] Save chat API called
+[2025-08-02T19:41:07.997Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 7
+}
+[2025-08-02T19:41:08.007Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 7,
+  "existingMessages": 17,
+  "newMessages": 4,
+  "newMessageIds": [
+    "f7ad57a6-bd96-4535-9d65-749a95b1b1d4",
+    "2e1216a9-9419-4046-987c-4463213826d9",
+    "d328c53e-ef5d-4045-a20f-f0ce9875d71c",
+    "971ed427-ae9f-410d-b069-cb89e04cae2e"
+  ]
+}
+[2025-08-02T19:41:08.017Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:41:08.410Z] [INFO] Save chat API called
+[2025-08-02T19:41:08.413Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 8
+}
+[2025-08-02T19:41:08.419Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 8,
+  "existingMessages": 21,
+  "newMessages": 4,
+  "newMessageIds": [
+    "4bdbb221-5dcf-44d9-9849-d48a22b9e43c",
+    "d93a51e1-73c4-4cb5-9338-7e8797de5f76",
+    "38381dfb-9bc2-4a9e-8c2b-8829fa6b52d3",
+    "4af11c9a-7996-48a7-9e9b-31d8c6650a41"
+  ]
+}
+[2025-08-02T19:41:08.427Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:41:09.293Z] [INFO] Save chat API called
+[2025-08-02T19:41:09.296Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 7
+}
+[2025-08-02T19:41:09.302Z] [INFO] Saving new messages
+  Data: {
+  "totalMessages": 7,
+  "existingMessages": 25,
+  "newMessages": 4,
+  "newMessageIds": [
+    "100968ac-edb2-4e3d-8c46-a72d76924ce9",
+    "09c06fe9-0415-4bb2-a614-cf4b997e3f98",
+    "3ad80869-bb70-4ffd-9266-1666143978d9",
+    "3ad1ff8f-fbb7-4b18-8427-825b63542f85"
+  ]
+}
+[2025-08-02T19:41:09.309Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:47:01.008Z] [INFO] Save chat API called
+[2025-08-02T19:47:01.031Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "da66f77c-85ad-4089-86cb-48a957fff396",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:47:01.076Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"1fc1b82d-ecab-4680-9bf0-f6b53a09a408\",\"createdAt\":\"2025-08-02T19:46:52.732Z\",\"role\":\"user\",\"content\":\"Oi\",\"parts\":[{\"type\":\"text\",\"text\":\"Oi\"}]}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:47:01 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:47:01.249Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "da66f77c-85ad-4089-86cb-48a957fff396",
+  "title": "New Chat"
+}
+[2025-08-02T19:47:01.263Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 2,
+  "messageIds": [
+    "1fc1b82d-ecab-4680-9bf0-f6b53a09a408",
+    "64fa4161-f3a8-4f5c-8f5e-6ccf44559136"
+  ]
+}
+[2025-08-02T19:47:01.271Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:47:53.485Z] [INFO] Save chat API called
+[2025-08-02T19:47:53.488Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:47:53.489Z] [INFO] Using test user for development
+[2025-08-02T19:47:53.491Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "a2f6dcdf-2bad-4f75-8cb9-ceb13355069a",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:47:53.503Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"8f8a4ad0-fe24-4864-aec2-9d5fc982b6d5\",\"role\":\"user\",\"content\":\"Hello, this is a test message\",\"parts\":[{\"type\":\"text\",\"text\":\"Hello, this is a test message\"}],\"attachments\":[],\"createdAt\":\"2025-08-02T19:47:53.405Z\"}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:47:53 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:47:53.641Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "a2f6dcdf-2bad-4f75-8cb9-ceb13355069a",
+  "title": "New Chat"
+}
+[2025-08-02T19:47:53.649Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 2,
+  "messageIds": [
+    "8f8a4ad0-fe24-4864-aec2-9d5fc982b6d5",
+    "a22a5dd4-93d9-4afe-bc96-ba4e1fc0d1eb"
+  ]
+}
+[2025-08-02T19:47:53.657Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:48:23.930Z] [INFO] Save chat API called
+[2025-08-02T19:48:23.933Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:48:23.934Z] [INFO] Using test user for development
+[2025-08-02T19:48:23.935Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "test-duplicate-chat-fb581ecc-4572-4f4e-8563-c80c3afb7b48",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:48:23.941Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "invalid input syntax for type uuid: \"test-duplicate-chat-fb581ecc-4572-4f4e-8563-c80c3afb7b48\""
+}
+[2025-08-02T19:48:23.977Z] [INFO] Save chat API called
+[2025-08-02T19:48:23.979Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:48:23.980Z] [INFO] Using test user for development
+[2025-08-02T19:48:23.981Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "test-duplicate-chat-fb581ecc-4572-4f4e-8563-c80c3afb7b48",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:48:23.985Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "invalid input syntax for type uuid: \"test-duplicate-chat-fb581ecc-4572-4f4e-8563-c80c3afb7b48\""
+}
+[2025-08-02T19:48:24.009Z] [INFO] Save chat API called
+[2025-08-02T19:48:24.012Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:48:24.012Z] [INFO] Using test user for development
+[2025-08-02T19:48:24.014Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "test-duplicate-chat-fb581ecc-4572-4f4e-8563-c80c3afb7b48",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:48:24.018Z] [ERROR] Failed to save chat
+  Data: {
+  "error": "invalid input syntax for type uuid: \"test-duplicate-chat-fb581ecc-4572-4f4e-8563-c80c3afb7b48\""
+}
+[2025-08-02T19:49:08.701Z] [INFO] Save chat API called
+[2025-08-02T19:49:08.703Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:49:08.704Z] [INFO] Using test user for development
+[2025-08-02T19:49:08.705Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "df0b3091-9eb0-4666-b761-bfeda8d3b9c8",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:49:08.716Z] [WARNING] Failed to generate title, using default
+  Data: {
+  "error": {
+    "name": "AI_APICallError",
+    "url": "http://localhost:11434/chat",
+    "requestBodyValues": {
+      "model": "MasterKey:latest",
+      "options": {
+        "temperature": 0
+      },
+      "messages": [
+        {
+          "content": "\n\n    - you will generate a short title based on the first message a user begins a conversation with\n    - ensure it is not more than 80 characters long\n    - the title should be a summary of the user's message\n    - do not use quotes or colons",
+          "role": "system"
+        },
+        {
+          "content": "{\"id\":\"b6eda646-3b39-4026-b78d-d64529c7eba6\",\"role\":\"user\",\"content\":\"Hello, this is a test message\",\"parts\":[{\"type\":\"text\",\"text\":\"Hello, this is a test message\"}],\"attachments\":[],\"createdAt\":\"2025-08-02T19:49:08.626Z\"}",
+          "role": "user"
+        }
+      ],
+      "stream": false
+    },
+    "statusCode": 404,
+    "responseHeaders": {
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Sat, 02 Aug 2025 19:49:08 GMT"
+    },
+    "responseBody": "404 page not found",
+    "isRetryable": false
+  }
+}
+[2025-08-02T19:49:08.821Z] [INFO] Saving new chat
+  Data: {
+  "chatId": "df0b3091-9eb0-4666-b761-bfeda8d3b9c8",
+  "title": "New Chat"
+}
+[2025-08-02T19:49:08.828Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 2,
+  "messageIds": [
+    "b6eda646-3b39-4026-b78d-d64529c7eba6",
+    "7460e74e-0fe6-4f16-830d-d229e1ccdf6b"
+  ]
+}
+[2025-08-02T19:49:08.835Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:49:08.866Z] [INFO] Save chat API called
+[2025-08-02T19:49:08.869Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:49:08.870Z] [INFO] Using test user for development
+[2025-08-02T19:49:08.871Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "df0b3091-9eb0-4666-b761-bfeda8d3b9c8",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 2
+}
+[2025-08-02T19:49:08.875Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 2,
+  "messageIds": [
+    "b6eda646-3b39-4026-b78d-d64529c7eba6",
+    "7460e74e-0fe6-4f16-830d-d229e1ccdf6b"
+  ]
+}
+[2025-08-02T19:49:08.880Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:49:08.900Z] [INFO] Save chat API called
+[2025-08-02T19:49:08.902Z] [ERROR] Unauthorized: No session found
+[2025-08-02T19:49:08.903Z] [INFO] Using test user for development
+[2025-08-02T19:49:08.904Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "df0b3091-9eb0-4666-b761-bfeda8d3b9c8",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:49:08.908Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 3,
+  "messageIds": [
+    "b6eda646-3b39-4026-b78d-d64529c7eba6",
+    "7460e74e-0fe6-4f16-830d-d229e1ccdf6b",
+    "e5644277-d9d1-4a61-8906-c65b35de1e24"
+  ]
+}
+[2025-08-02T19:49:08.915Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:49:39.839Z] [INFO] Save chat API called
+[2025-08-02T19:49:39.845Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "da66f77c-85ad-4089-86cb-48a957fff396",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:49:39.852Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 3,
+  "messageIds": [
+    "1fc1b82d-ecab-4680-9bf0-f6b53a09a408",
+    "fb6226ff-5d23-43fe-97c1-d166abf448ec",
+    "8a731989-8f19-46fa-a17a-3b856242fae5"
+  ]
+}
+[2025-08-02T19:49:39.866Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:49:40.307Z] [INFO] Save chat API called
+[2025-08-02T19:49:40.311Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "da66f77c-85ad-4089-86cb-48a957fff396",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 4
+}
+[2025-08-02T19:49:40.316Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 4,
+  "messageIds": [
+    "1fc1b82d-ecab-4680-9bf0-f6b53a09a408",
+    "fc6bf568-6c4b-48fa-a083-473e7fd9895f",
+    "8a731989-8f19-46fa-a17a-3b856242fae5",
+    "9543b441-161a-42fd-b72b-6a59fc9d6e7f"
+  ]
+}
+[2025-08-02T19:49:40.326Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:49:41.488Z] [INFO] Save chat API called
+[2025-08-02T19:49:41.492Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "da66f77c-85ad-4089-86cb-48a957fff396",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 3
+}
+[2025-08-02T19:49:41.495Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 3,
+  "messageIds": [
+    "1fc1b82d-ecab-4680-9bf0-f6b53a09a408",
+    "64cfc3a4-d17c-4a7d-bd03-4cdc89b79919",
+    "4105f7bd-653d-4181-be86-2c6b630c6b81"
+  ]
+}
+[2025-08-02T19:49:41.503Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:50:36.986Z] [INFO] Save chat API called
+[2025-08-02T19:50:36.991Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "da66f77c-85ad-4089-86cb-48a957fff396",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 5
+}
+[2025-08-02T19:50:36.997Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 5,
+  "messageIds": [
+    "1fc1b82d-ecab-4680-9bf0-f6b53a09a408",
+    "cb4ced8a-2b45-4973-8e54-d1a4006f0043",
+    "8a731989-8f19-46fa-a17a-3b856242fae5",
+    "51a68a4f-8b7a-4a5a-a19e-7b9b2f6b4c58",
+    "bbdccfed-10ed-415d-bd25-d1be6358db0f"
+  ]
+}
+[2025-08-02T19:50:37.008Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:50:37.421Z] [INFO] Save chat API called
+[2025-08-02T19:50:37.426Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "da66f77c-85ad-4089-86cb-48a957fff396",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 6
+}
+[2025-08-02T19:50:37.429Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 6,
+  "messageIds": [
+    "1fc1b82d-ecab-4680-9bf0-f6b53a09a408",
+    "45d52d33-9405-47e6-94b4-beee4f565f35",
+    "8a731989-8f19-46fa-a17a-3b856242fae5",
+    "1d5a563c-9feb-461b-bec6-3a1e66598181",
+    "bbdccfed-10ed-415d-bd25-d1be6358db0f",
+    "01e48589-6ed2-411a-beaf-d316acdc4590"
+  ]
+}
+[2025-08-02T19:50:37.436Z] [INFO] Chat and messages saved successfully
+[2025-08-02T19:50:38.400Z] [INFO] Save chat API called
+[2025-08-02T19:50:38.404Z] [INFO] Processing save chat request
+  Data: {
+  "chatId": "da66f77c-85ad-4089-86cb-48a957fff396",
+  "userId": "83376fb5-1866-47ac-8f2c-98c741f2f40f",
+  "messagesCount": 5
+}
+[2025-08-02T19:50:38.407Z] [INFO] Upserting messages
+  Data: {
+  "totalMessages": 5,
+  "messageIds": [
+    "1fc1b82d-ecab-4680-9bf0-f6b53a09a408",
+    "a42983d5-7fc8-4e3d-8108-dec6527c3e05",
+    "8a731989-8f19-46fa-a17a-3b856242fae5",
+    "cfa3053f-ddd1-481c-9953-264a747de544",
+    "840807b0-ced7-467e-891f-1043e4932c8d"
+  ]
+}
+[2025-08-02T19:50:38.414Z] [INFO] Chat and messages saved successfully

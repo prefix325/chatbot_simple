@@ -198,6 +198,30 @@ export async function saveMessages({
   }
 }
 
+export async function upsertMessages({
+  messages,
+}: {
+  messages: Array<DBMessage>;
+}) {
+  try {
+    const chatIds = [...new Set(messages.map(m => m.chatId))];
+    logDatabaseOperation('upsertMessages', chatIds.join(','), true, { 
+      messageCount: messages.length,
+      chatIds 
+    });
+    
+    // Usar onConflictDoNothing para evitar duplicados
+    const result = await db.insert(message).values(messages).onConflictDoNothing();
+    logDatabaseOperation('upsertMessages - completed', chatIds.join(','), true);
+    return result;
+  } catch (error) {
+    const chatIds = [...new Set(messages.map(m => m.chatId))];
+    logDatabaseOperation('upsertMessages', chatIds.join(','), false, error);
+    console.error('Failed to upsert messages in database');
+    throw error;
+  }
+}
+
 export async function getMessagesByChatId({ id }: { id: string }) {
   try {
     return await db

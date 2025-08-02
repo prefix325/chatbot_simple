@@ -1,0 +1,204 @@
+[2025-08-02T19:40:38.382Z] [INFO] Chat request received
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "model": "chat-model",
+  "messageCount": 1
+}
+[2025-08-02T19:40:38.386Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "selectedModel": "chat-model",
+  "messagesCount": 1
+}
+[2025-08-02T19:40:38.387Z] [DEBUG] Starting Ollama health check
+[2025-08-02T19:40:38.408Z] [INFO] Ollama health check passed
+[2025-08-02T19:40:38.409Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:40:38.410Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 2
+}
+[2025-08-02T19:40:38.411Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 1,
+  "formattedCount": 1,
+  "lastMessage": {
+    "role": "user",
+    "content": "Oi"
+  }
+}
+[2025-08-02T19:40:38.413Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:40:38.415Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T19:40:38.423Z] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T19:40:45.507Z] [INFO] Chat request received
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "model": "chat-model",
+  "messageCount": 3
+}
+[2025-08-02T19:40:45.508Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "selectedModel": "chat-model",
+  "messagesCount": 3
+}
+[2025-08-02T19:40:45.510Z] [DEBUG] Starting Ollama health check
+[2025-08-02T19:40:45.514Z] [INFO] Ollama health check passed
+[2025-08-02T19:40:45.516Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:40:45.517Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 2
+}
+[2025-08-02T19:40:45.518Z] [DEBUG] Message 1
+  Data: {
+  "role": "assistant",
+  "contentLength": 134
+}
+[2025-08-02T19:40:45.519Z] [DEBUG] Message 2
+  Data: {
+  "role": "user",
+  "contentLength": 9
+}
+[2025-08-02T19:40:45.520Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 3,
+  "formattedCount": 3,
+  "lastMessage": {
+    "role": "user",
+    "content": "Boa tarde"
+  }
+}
+[2025-08-02T19:40:45.522Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:40:45.523Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T19:40:45.527Z] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T19:40:52.451Z] [INFO] Chat request received
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "model": "chat-model",
+  "messageCount": 5
+}
+[2025-08-02T19:40:52.453Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "selectedModel": "chat-model",
+  "messagesCount": 5
+}
+[2025-08-02T19:40:52.454Z] [DEBUG] Starting Ollama health check
+[2025-08-02T19:40:52.461Z] [INFO] Ollama health check passed
+[2025-08-02T19:40:52.462Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:40:52.463Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 2
+}
+[2025-08-02T19:40:52.465Z] [DEBUG] Message 1
+  Data: {
+  "role": "assistant",
+  "contentLength": 134
+}
+[2025-08-02T19:40:52.466Z] [DEBUG] Message 2
+  Data: {
+  "role": "user",
+  "contentLength": 9
+}
+[2025-08-02T19:40:52.467Z] [DEBUG] Message 3
+  Data: {
+  "role": "assistant",
+  "contentLength": 168
+}
+[2025-08-02T19:40:52.468Z] [DEBUG] Message 4
+  Data: {
+  "role": "user",
+  "contentLength": 21
+}
+[2025-08-02T19:40:52.469Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 5,
+  "formattedCount": 5,
+  "lastMessage": {
+    "role": "user",
+    "content": "Como estão as coisas?"
+  }
+}
+[2025-08-02T19:40:52.471Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:40:52.472Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T19:40:52.474Z] [INFO] StreamText created successfully, returning data stream response
+[2025-08-02T19:41:06.981Z] [INFO] Chat request received
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "model": "chat-model",
+  "messageCount": 7
+}
+[2025-08-02T19:41:06.982Z] [INFO] Starting chat processing
+  Data: {
+  "chatId": "7587ee68-6e03-4313-8684-ebf25dcb0d1d",
+  "selectedModel": "chat-model",
+  "messagesCount": 7
+}
+[2025-08-02T19:41:06.983Z] [DEBUG] Starting Ollama health check
+[2025-08-02T19:41:06.990Z] [INFO] Ollama health check passed
+[2025-08-02T19:41:06.991Z] [DEBUG] Converting messages to AI SDK format
+[2025-08-02T19:41:06.992Z] [DEBUG] Message 0
+  Data: {
+  "role": "user",
+  "contentLength": 2
+}
+[2025-08-02T19:41:06.993Z] [DEBUG] Message 1
+  Data: {
+  "role": "assistant",
+  "contentLength": 134
+}
+[2025-08-02T19:41:06.994Z] [DEBUG] Message 2
+  Data: {
+  "role": "user",
+  "contentLength": 9
+}
+[2025-08-02T19:41:06.995Z] [DEBUG] Message 3
+  Data: {
+  "role": "assistant",
+  "contentLength": 168
+}
+[2025-08-02T19:41:06.996Z] [DEBUG] Message 4
+  Data: {
+  "role": "user",
+  "contentLength": 21
+}
+[2025-08-02T19:41:06.997Z] [DEBUG] Message 5
+  Data: {
+  "role": "assistant",
+  "contentLength": 710
+}
+[2025-08-02T19:41:06.998Z] [DEBUG] Message 6
+  Data: {
+  "role": "user",
+  "contentLength": 14
+}
+[2025-08-02T19:41:06.999Z] [INFO] Messages formatted successfully
+  Data: {
+  "originalCount": 7,
+  "formattedCount": 7,
+  "lastMessage": {
+    "role": "user",
+    "content": "Fale uma piada"
+  }
+}
+[2025-08-02T19:41:07.001Z] [INFO] Starting streamText with Ollama provider
+[2025-08-02T19:41:07.002Z] [INFO] Using Ollama model
+  Data: {
+  "requestedModel": "chat-model",
+  "actualModel": "MasterKey:latest"
+}
+[2025-08-02T19:41:07.004Z] [INFO] StreamText created successfully, returning data stream response
